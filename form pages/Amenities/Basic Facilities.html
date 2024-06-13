@@ -1,0 +1,2502 @@
+<html lang="en">
+
+<head>
+    <style>
+        .LGLeeN-keyboard-shortcuts-view {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex
+        }
+
+        .LGLeeN-keyboard-shortcuts-view table,
+        .LGLeeN-keyboard-shortcuts-view tbody,
+        .LGLeeN-keyboard-shortcuts-view td,
+        .LGLeeN-keyboard-shortcuts-view tr {
+            background: inherit;
+            border: none;
+            margin: 0;
+            padding: 0
+        }
+
+        .LGLeeN-keyboard-shortcuts-view table {
+            display: table
+        }
+
+        .LGLeeN-keyboard-shortcuts-view tr {
+            display: table-row
+        }
+
+        .LGLeeN-keyboard-shortcuts-view td {
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            display: table-cell;
+            color: #000;
+            padding: 6px;
+            vertical-align: middle;
+            white-space: nowrap
+        }
+
+        .LGLeeN-keyboard-shortcuts-view td:first-child {
+            text-align: end
+        }
+
+        .LGLeeN-keyboard-shortcuts-view td kbd {
+            background-color: #e8eaed;
+            border-radius: 2px;
+            border: none;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-block;
+            font-family: Google Sans Text, Roboto, Arial, sans-serif;
+            line-height: 16px;
+            margin: 0 2px;
+            min-height: 20px;
+            min-width: 20px;
+            padding: 2px 4px;
+            position: relative;
+            text-align: center
+        }
+    </style>
+    <style>
+        .gm-control-active>img {
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+            display: none;
+            left: 50%;
+            pointer-events: none;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%)
+        }
+
+        .gm-control-active>img:nth-child(1) {
+            display: block
+        }
+
+        .gm-control-active:focus>img:nth-child(1),
+        .gm-control-active:hover>img:nth-child(1),
+        .gm-control-active:active>img:nth-child(1),
+        .gm-control-active:disabled>img:nth-child(1) {
+            display: none
+        }
+
+        .gm-control-active:focus>img:nth-child(2),
+        .gm-control-active:hover>img:nth-child(2) {
+            display: block
+        }
+
+        .gm-control-active:active>img:nth-child(3) {
+            display: block
+        }
+
+        .gm-control-active:disabled>img:nth-child(4) {
+            display: block
+        }
+
+        sentinel {}
+    </style>
+    <link type="text/css" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400&amp;lang=en">
+    <link type="text/css" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&amp;lang=en">
+    <style>
+        .gm-ui-hover-effect {
+            opacity: .6
+        }
+
+        .gm-ui-hover-effect:hover {
+            opacity: 1
+        }
+
+        .gm-ui-hover-effect>span {
+            background-color: #000
+        }
+
+        @media (forced-colors:active),
+        (prefers-contrast:more) {
+            .gm-ui-hover-effect>span {
+                background-color: ButtonText
+            }
+        }
+
+        sentinel {}
+    </style>
+    <style>
+        .gm-style .gm-style-cc a,
+        .gm-style .gm-style-cc button,
+        .gm-style .gm-style-cc span,
+        .gm-style .gm-style-mtc div {
+            font-size: 10px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        .gm-style .gm-style-cc a,
+        .gm-style .gm-style-cc button,
+        .gm-style .gm-style-cc span {
+            outline-offset: 3px
+        }
+
+        sentinel {}
+    </style>
+    <style>
+        @media print {
+
+            .gm-style .gmnoprint,
+            .gmnoprint {
+                display: none
+            }
+        }
+
+        @media screen {
+
+            .gm-style .gmnoscreen,
+            .gmnoscreen {
+                display: none
+            }
+        }
+    </style>
+    <style>
+        .gm-style-moc {
+            background-color: rgba(0, 0, 0, .45);
+            pointer-events: none;
+            text-align: center;
+            -webkit-transition: opacity ease-in-out;
+            transition: opacity ease-in-out
+        }
+
+        .gm-style-mot {
+            color: white;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 22px;
+            margin: 0;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%)
+        }
+
+        sentinel {}
+    </style>
+    <style>
+        .gm-style img {
+            max-width: none;
+        }
+
+        .gm-style {
+            font: 400 11px Roboto, Arial, sans-serif;
+            text-decoration: none;
+        }
+    </style>
+    <style data-emotion="css-global" data-s=""></style>
+    <style data-emotion="css-global" data-s=""></style>
+    <style data-emotion="css-global" data-s=""></style>
+    <style data-emotion="css-global" data-s=""></style>
+    <style data-emotion="css-global" data-s=""></style>
+    <style data-emotion="css" data-s=""></style>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/newextranet/lean_app/favicon.ico?v=2">
+    <meta name="theme-color" content="#000000">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge">
+    <title>InGo-MMT</title>
+    <script type="text/javascript">
+        var INGOIBIBO_GOOGLE_ANALYTICS_USERNAME = 'INGO_BASE_DUMMY';
+        var STRINGS_HASH = 'CIjQzvvswiQ7fsBwgs8IhpPaSNU';
+        window.adobeDataLayer = window.adobeDataLayer || [];
+    </script>
+    <script type="text/javascript"
+        src="https://polyfill.io/v3/polyfill.min.js?features=ResizeObserver%2CIntersectionObserver%2CIntersectionObserverEntry%2CPromise.prototype.finally"></script>
+
+    <script type="text/javascript"
+        src="https://assets.adobedtm.com/79483c2c7c00/8cfa3ad2891c/launch-bb6ea48d042d.min.js" async=""></script>
+    <script type="text/javascript" async="" src="https://ssl.widgets.webengage.com/js/webengage-min-v-6.0.js"></script>
+    <script id="_webengage_script_tag" type="text/javascript">
+        var webengage; !function (w, e, b, n, g) {
+            function o(e, t) {
+                e[t[t.length - 1]] = function () {
+                    r.__queue.push([t.join("."),
+                        arguments])
+                }
+            } var i, s, r = w[b], z = " ", l = "init options track screen onReady".split(z), a = "webPersonalization feedback survey notification notificationInbox".split(z), c = "options render clear abort".split(z), p = "Prepare Render Open Close Submit Complete View Click".split(z), u = "identify login logout setAttribute".split(z); if (!r || !r.__v) { for (w[b] = r = { __queue: [], __v: "6.0", user: {} }, i = 0; i < l.length; i++)o(r, [l[i]]); for (i = 0; i < a.length; i++) { for (r[a[i]] = {}, s = 0; s < c.length; s++)o(r[a[i]], [a[i], c[s]]); for (s = 0; s < p.length; s++)o(r[a[i]], [a[i], "on" + p[s]]) } for (i = 0; i < u.length; i++)o(r.user, ["user", u[i]]); setTimeout(function () { var f = e.createElement("script"), d = e.getElementById("_webengage_script_tag"); f.type = "text/javascript", f.async = !0, f.src = ("https:" == e.location.protocol ? "https://ssl.widgets.webengage.com" : "http://cdn.widgets.webengage.com") + "/js/webengage-min-v-6.0.js", d.parentNode.insertBefore(f, d) }) }
+        }(window, document, "webengage"); webengage.init("8261812c");
+    </script>
+
+
+    <script type="module" crossorigin="" src="/newextranet/lean_app/assets/index.78825b22.js"></script>
+    <link rel="modulepreload" crossorigin="" href="/newextranet/lean_app/assets/vendor.1053b224.js">
+    <link rel="stylesheet" href="/newextranet/lean_app/assets/index.679a4bdc.css">
+    <script src="https://assets.adobedtm.com/extensions/EP171e731c9ba34f1c950c36d26e3efd61/AppMeasurement.min.js"
+        async=""></script>
+    <script
+        src="https://assets.adobedtm.com/extensions/EP171e731c9ba34f1c950c36d26e3efd61/AppMeasurement_Module_ActivityMap.min.js"
+        async=""></script>
+    <style data-jss="" data-meta="makeStyles">
+        .jss13 {
+            overflow-wrap: anywhere;
+        }
+
+        .jss15 {
+            display: inline;
+        }
+
+        .jss16 {
+            cursor: pointer;
+        }
+
+        .jss17 {
+            color: #0F0F0F;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 42px;
+        }
+
+        .jss18 {
+            color: #0F0F0F;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+        }
+
+        .jss19 {
+            color: #0F0F0F;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 27px;
+        }
+
+        .jss20 {
+            color: #0F0F0F;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        .jss21 {
+            color: #0F0F0F;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+        }
+
+        .jss22 {
+            color: #0F0F0F;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        .jss23 {
+            color: #0F0F0F;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+        }
+
+        .jss24 {
+            color: #0F0F0F;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 18px;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+        }
+
+        .jss25 {
+            color: #787878;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .jss26 {
+            color: #0F0F0F;
+            font-size: 12px;
+            font-style: normal;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+        }
+
+        .jss27 {
+            color: #0F0F0F;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+        }
+
+        .jss28 {
+            color: #0F0F0F;
+            font-size: 12px;
+            font-style: normal;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .jss29 {
+            color: #0F0F0F;
+            font-size: 10px;
+            font-style: normal;
+            line-height: 14px;
+            letter-spacing: 0.02em;
+        }
+
+        .jss30 {
+            color: #0F0F0F;
+            font-size: 10px;
+            font-style: normal;
+            line-height: 11.72px;
+            letter-spacing: 0.02em;
+        }
+
+        .jss31 {
+            color: #0F0F0F;
+            font-size: 32px;
+            font-style: normal;
+            line-height: 42px;
+            letter-spacing: 0.02em;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss5907 {
+            overflow-wrap: anywhere;
+        }
+
+        .jss5909 {
+            display: inline;
+        }
+
+        .jss5910 {
+            cursor: pointer;
+        }
+
+        .jss5911 {
+            color: #0F0F0F;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 42px;
+        }
+
+        .jss5912 {
+            color: #0F0F0F;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+        }
+
+        .jss5913 {
+            color: #0F0F0F;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 27px;
+        }
+
+        .jss5914 {
+            color: #0F0F0F;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        .jss5915 {
+            color: #0F0F0F;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+        }
+
+        .jss5916 {
+            color: #0F0F0F;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        .jss5917 {
+            color: #0F0F0F;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+        }
+
+        .jss5918 {
+            color: #0F0F0F;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 18px;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+        }
+
+        .jss5919 {
+            color: #787878;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .jss5920 {
+            color: #0F0F0F;
+            font-size: 12px;
+            font-style: normal;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+        }
+
+        .jss5921 {
+            color: #0F0F0F;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+        }
+
+        .jss5922 {
+            color: #0F0F0F;
+            font-size: 12px;
+            font-style: normal;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .jss5923 {
+            color: #0F0F0F;
+            font-size: 10px;
+            font-style: normal;
+            line-height: 14px;
+            letter-spacing: 0.02em;
+        }
+
+        .jss5924 {
+            color: #0F0F0F;
+            font-size: 10px;
+            font-style: normal;
+            line-height: 11.72px;
+            letter-spacing: 0.02em;
+        }
+
+        .jss5925 {
+            color: #0F0F0F;
+            font-size: 32px;
+            font-style: normal;
+            line-height: 42px;
+            letter-spacing: 0.02em;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss2318.MuiButton-root {
+            height: 36px;
+            padding: 14px 28px;
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+            line-height: 16px;
+            border-radius: 4px;
+            text-transform: capitalize;
+        }
+
+        .jss2319[class*=" MuiButton-root"] {
+            padding: 8px 16px;
+            font-size: 16px;
+            text-align: center;
+            font-weight: 600;
+            line-height: 20px;
+            white-space: normal;
+            border-radius: 4px;
+            letter-spacing: 0;
+            text-transform: capitalize;
+        }
+
+        .jss2319[class*=" MuiButton-root"] [class*=MuiButton-label] {
+            height: initial;
+        }
+
+        .jss2319[class*=" MuiButton-root"][class*=MuiButton-text] {
+            padding: 0 !important;
+        }
+
+        .jss2320 {
+            height: 36px;
+        }
+
+        .jss2321 {
+            white-space: pre;
+        }
+
+        .jss2321.Mui-disabled {
+            color: white;
+            background-color: #C2C7EC;
+        }
+
+        .jss2321.MuiButton-sizeSmall {
+            font-weight: 500 !important;
+        }
+
+        .jss2321.Mui-disabled hr {
+            opacity: 0.2 !important;
+        }
+
+        .jss2322 {
+            border: 1px solid #3543BF;
+            white-space: pre;
+        }
+
+        .jss2322[class*=" MuiButton-outlinedPrimary"]:hover {
+            color: #1F2A8D;
+            border: 1.5px solid #3543BF;
+        }
+
+        .jss2322.Mui-disabled {
+            color: #C2C7EC;
+            border: 1px solid #C2C7EC;
+        }
+
+        .jss2322 hr {
+            border-left: 1px solid #3543BF !important;
+        }
+
+        .jss2322.Mui-disabled hr {
+            opacity: 0.2 !important;
+        }
+
+        .jss2323 {
+            padding: unset;
+            min-width: unset;
+            background-color: transparent !important;
+        }
+
+        .jss2323.MuiButton-textPrimary:hover {
+            color: #1F2A8D;
+            border-radius: 8px;
+            background-color: transparent;
+        }
+
+        .jss2323.MuiButton-root:hover {
+            color: #1F2A8D;
+            border-radius: 8px;
+            background-color: transparent;
+        }
+
+        .jss2323.Mui-disabled {
+            color: #C2C7EC;
+            padding: 0;
+            border-radius: 8px;
+        }
+
+        .jss2323 hr {
+            border-left: 1px solid #3543BF !important;
+            margin-left: 5px;
+        }
+
+        .jss2323.Mui-disabled hr {
+            opacity: 0.2 !important;
+        }
+
+        .jss2324 {
+            height: 24px !important;
+            padding: 2px 8px !important;
+            font-size: 14px !important;
+        }
+
+        .jss2324[class*="MuiButton-sizeSmall"] {
+            font-weight: 500 !important;
+        }
+
+        .jss2325 {
+            height: 40px !important;
+            padding: 10px 16px !important;
+            font-size: 16px !important;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss6007.MuiButton-root {
+            height: 36px;
+            padding: 14px 28px;
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+            line-height: 16px;
+            border-radius: 4px;
+            text-transform: capitalize;
+        }
+
+        .jss6008[class*=" MuiButton-root"] {
+            padding: 8px 16px;
+            font-size: 16px;
+            text-align: center;
+            font-weight: 600;
+            line-height: 20px;
+            white-space: normal;
+            border-radius: 4px;
+            letter-spacing: 0;
+            text-transform: capitalize;
+        }
+
+        .jss6008[class*=" MuiButton-root"] [class*=MuiButton-label] {
+            height: initial;
+        }
+
+        .jss6008[class*=" MuiButton-root"][class*=MuiButton-text] {
+            padding: 0 !important;
+        }
+
+        .jss6009 {
+            height: 36px;
+        }
+
+        .jss6010 {
+            white-space: pre;
+        }
+
+        .jss6010.Mui-disabled {
+            color: white;
+            background-color: #C2C7EC;
+        }
+
+        .jss6010.MuiButton-sizeSmall {
+            font-weight: 500 !important;
+        }
+
+        .jss6010.Mui-disabled hr {
+            opacity: 0.2 !important;
+        }
+
+        .jss6011 {
+            border: 1px solid #3543BF;
+            white-space: pre;
+        }
+
+        .jss6011[class*=" MuiButton-outlinedPrimary"]:hover {
+            color: #1F2A8D;
+            border: 1.5px solid #3543BF;
+        }
+
+        .jss6011.Mui-disabled {
+            color: #C2C7EC;
+            border: 1px solid #C2C7EC;
+        }
+
+        .jss6011 hr {
+            border-left: 1px solid #3543BF !important;
+        }
+
+        .jss6011.Mui-disabled hr {
+            opacity: 0.2 !important;
+        }
+
+        .jss6012 {
+            padding: unset;
+            min-width: unset;
+            background-color: transparent !important;
+        }
+
+        .jss6012.MuiButton-textPrimary:hover {
+            color: #1F2A8D;
+            border-radius: 8px;
+            background-color: transparent;
+        }
+
+        .jss6012.MuiButton-root:hover {
+            color: #1F2A8D;
+            border-radius: 8px;
+            background-color: transparent;
+        }
+
+        .jss6012.Mui-disabled {
+            color: #C2C7EC;
+            padding: 0;
+            border-radius: 8px;
+        }
+
+        .jss6012 hr {
+            border-left: 1px solid #3543BF !important;
+            margin-left: 5px;
+        }
+
+        .jss6012.Mui-disabled hr {
+            opacity: 0.2 !important;
+        }
+
+        .jss6013 {
+            height: 24px !important;
+            padding: 2px 8px !important;
+            font-size: 14px !important;
+        }
+
+        .jss6013[class*="MuiButton-sizeSmall"] {
+            font-weight: 500 !important;
+        }
+
+        .jss6014 {
+            height: 40px !important;
+            padding: 10px 16px !important;
+            font-size: 16px !important;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss48 {
+            border: none;
+            height: 20px;
+            font-size: 12px;
+            background: #FFFFFF;
+            font-weight: 400;
+            line-height: 16px;
+            border-radius: 4px;
+        }
+
+        clickable.jss48:hover,
+        clickable.jss48:focus,
+        deletable.jss48:focus {
+            background-color: rgba(120, 120, 120, 0.15);
+        }
+
+        .jss48 [class*="MuiChip-label"].not(class*|="success").not(class*|="warning").not(class*|="error") {
+            color: #FFFFFF !important;
+        }
+
+        .jss48 [class*="MuiChip-label"] {
+            color: #404040 !important;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        .jss49 {
+            height: 20px;
+            font-size: 10px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .jss50 {
+            padding: 0 6px;
+        }
+
+        .jss51 [class*="MuiChip-label"] {
+            color: #2E7D32 !important;
+        }
+
+        clickable.jss51:hover,
+        clickable.jss51:focus,
+        deletable.jss51:focus {
+            background-color: rgba(232, 255, 240, 0.15);
+        }
+
+        .jss52 [class*="MuiChip-label"] {
+            color: #F2A526 !important;
+        }
+
+        clickable.jss52:hover,
+        clickable.jss52:focus,
+        deletable.jss52:focus {
+            background-color: rgba(255, 248, 238, 0.15);
+        }
+
+        .jss53 [class*="MuiChip-label"] {
+            color: #C62828 !important;
+        }
+
+        clickable.jss53:hover,
+        clickable.jss53:focus,
+        deletable.jss53:focus {
+            background-color: rgba(255, 235, 238, 0.15);
+        }
+
+        .jss54 {
+            border: 1px solid;
+        }
+
+        .jss55 {
+            border: 1px solid #404040;
+            background: #F8F8F8;
+        }
+
+        .jss55 [class*="MuiChip-label"] {
+            color: #404040 !important;
+        }
+
+        clickable.jss55:hover,
+        clickable.jss55:focus,
+        deletable.jss55:focus {
+            background-color: rgba(120, 120, 120, 0.15);
+        }
+
+        .jss56 {
+            border: 1px solid #D2D1D1;
+            background: #EFEFEF;
+        }
+
+        .jss56 [class*="MuiChip-label"] {
+            color: #404040 !important;
+        }
+
+        clickable.jss56:hover,
+        clickable.jss56:focus,
+        deletable.jss56:focus {
+            background-color: rgba(120, 120, 120, 0.15);
+        }
+
+        .jss57 {
+            border: 1px solid #2E7D32;
+            background: #E8FFF0;
+        }
+
+        .jss57 [class*="MuiChip-label"] {
+            color: #2E7D32 !important;
+        }
+
+        clickable.jss57:hover,
+        clickable.jss57:focus,
+        deletable.jss57:focus {
+            background-color: rgba(232, 255, 240, 0.15);
+        }
+
+        .jss58 {
+            border: 1px solid #81C784;
+            background: #E8FFF0;
+        }
+
+        .jss58 [class*="MuiChip-label"] {
+            color: #404040 !important;
+        }
+
+        clickable.jss58:hover,
+        clickable.jss58:focus,
+        deletable.jss58:focus {
+            background-color: rgba(55, 188, 142, 0.15);
+        }
+
+        .jss59 {
+            border: 1px solid #F2A526;
+            background: #FFF8EE;
+        }
+
+        .jss59 [class*="MuiChip-label"] {
+            color: #F2A526 !important;
+        }
+
+        clickable.jss59:hover,
+        clickable.jss59:focus,
+        deletable.jss59:focus {
+            background-color: rgba(255, 248, 238, 0.15);
+        }
+
+        .jss60 {
+            border: 1px solid rgb(138, 28, 28);
+            background: #FFEBEE;
+        }
+
+        .jss60 [class*="MuiChip-label"] {
+            color: rgb(138, 28, 28) !important;
+        }
+
+        clickable.jss60:hover,
+        clickable.jss60:focus,
+        deletable.jss60:focus {
+            background-color: rgba(255, 235, 238, 0.15);
+        }
+
+        .jss61 {
+            border: none;
+        }
+
+        .jss61 [class*="MuiChip-label"] {
+            padding-left: 6px;
+            padding-right: 6px;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss5939 {
+            width: 100%;
+        }
+
+        .jss5940 .Mui-disabled {
+            color: #404040;
+            opacity: 1;
+            -webkit-text-fill-color: #404040;
+        }
+
+        .jss5942 fieldset[class*="MuiOutlinedInput-notchedOutline"] {
+            border: none;
+        }
+
+        .jss5942 .Mui-disabled {
+            color: #3543BF;
+            opacity: 1;
+            -webkit-text-fill-color: #3543BF;
+        }
+
+        .jss5942 input {
+            color: #3543BF;
+            font-weight: 500;
+        }
+
+        .jss5943 [class*="MuiOutlinedInput-root"] {
+            border-top-left-radius: 0px !important;
+            border-bottom-left-radius: 0px !important;
+        }
+
+        .jss5944 input {
+            color: #404040;
+            font-weight: 400;
+        }
+
+        .jss5944 input::placeholder {
+            color: #787878;
+            opacity: 1;
+        }
+
+        .jss5947 {
+            border: 1px solid #D2D1D1;
+            padding: 0px 4px 4px 4px;
+            box-shadow: 0px 1px 5px rgba(1, 16, 34, 0.1);
+            border-radius: 4px;
+            background-color: #FFFFFF;
+        }
+
+        .jss5947 .MuiAutocomplete-option.Mui-focused {
+            background-color: #EFF1FF;
+        }
+
+        .jss5947 .MuiAutocomplete-option[aria-selected="true"] {
+            color: #3543BF;
+            background-color: #EFEFEF;
+        }
+
+        .jss5947 li[class^="MuiAutocomplete-option"] {
+            padding: 8px 12px;
+            font-size: 14px;
+            font-family: Roboto;
+            line-height: 20px;
+            margin-bottom: 2px;
+            background-color: #FFFFFF;
+        }
+
+        .jss5947 div[class*="MuiAutocomplete-groupLabel"] {
+            font-size: 12px !important;
+        }
+
+        .jss5947 li[data-focus="true"] {
+            background-color: #EFF1FF;
+        }
+
+        .jss5947 li[aria-selected="true"] {
+            color: #3543BF;
+            font-weight: 500;
+        }
+
+        .jss5947 li[aria-selected="true"] * {
+            color: #3543BF;
+        }
+
+        .jss5947 li[data-focus="true"] * {
+            color: #3543BF;
+        }
+
+        .jss5947 li[data-focus="true"] svg {
+            background-color: transparent;
+        }
+
+        .jss5948 {
+            border: 1px solid #DEDEDE;
+            height: 34px;
+            display: flex;
+            max-width: 180px;
+            background: #EFF1FF;
+            align-items: center;
+            border-color: #3543BF;
+            border-radius: 60px;
+            justify-content: space-between;
+        }
+
+        .jss5948 span[class^="MuiChip-label"] {
+            font-size: 14px !important;
+            line-height: 22px;
+        }
+
+        .jss5948:focus {
+            background: #FFFFFF;
+        }
+
+        .jss5949 {
+            width: 182px;
+        }
+
+        .jss5950 {
+            top: auto;
+        }
+
+        .jss5951 {
+            color: #3543BF;
+            margin-right: 12.5px;
+            background-color: #F8F8F8;
+        }
+
+        .jss5952 {
+            color: #FFFFFF !important;
+        }
+
+        .jss5952 .MuiInputBase-root {
+            width: 100% !important;
+            background: #3543BF !important;
+        }
+
+        .jss5952 .MuiInputBase-root .MuiInputBase-input {
+            color: #FFFFFF !important;
+            font-size: 16px !important;
+            font-weight: 600 !important;
+            border-right: 1px solid #FFFFFF;
+            margin-right: 8px;
+            -webkit-text-fill-color: #FFFFFF !important;
+        }
+
+        .jss5952 .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+            border: none;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss5928 {
+            width: 100%;
+            height: 40px;
+            overflow: hidden;
+            font-size: 14px !important;
+            font-family: Roboto;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+        }
+
+        .jss5928 input[type=number]::-webkit-inner-spin-button,
+        .jss5928 input[type=number]::-webkit-outer-spin-button {
+            margin: 0;
+            -webkit-appearance: none;
+        }
+
+        .jss5928.Mui-disabled {
+            color: #404040 !important;
+            background-color: #EFEFEF;
+        }
+
+        .jss5928.Mui-disabled,
+        .jss5928.Mui-disabled>input {
+            color: #404040 !important;
+        }
+
+        .jss5929 {
+            width: 20px;
+            cursor: pointer;
+            margin-right: 12px;
+        }
+
+        .jss5929:hover {
+            padding: 3px;
+            transition: all 0.2s;
+            border-radius: 12px;
+            background-color: #EFEFEF;
+        }
+
+        .jss5930 {
+            width: 182px;
+        }
+
+        .jss5931 {
+            width: 60px;
+            height: 24px !important;
+            display: flex;
+            overflow: hidden;
+            font-size: 14px !important;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .jss5931 input {
+            height: 24px;
+            padding: 0 4px !important;
+        }
+
+        .jss5931 .MuiOutlinedInput-notchedOutline {
+            top: 0px;
+            height: 24px !important;
+        }
+
+        .jss5931 .MuiOutlinedInput-notchedOutline legend {
+            display: none;
+        }
+
+        .jss5932 {
+            color: #787878;
+            padding: 10px;
+            font-size: 14px !important;
+            background-color: #EFEFEF;
+        }
+
+        .jss5933 {
+            padding-left: 0px;
+        }
+
+        .jss5934 {
+            padding-right: 0px;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss5971 {
+            opacity: 0.5;
+        }
+
+        .jss5972 {
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .14);
+        }
+
+        .jss5973 {
+            gap: 1px;
+            height: 30px !important;
+            display: flex;
+            padding: 2px !important;
+        }
+
+        .jss5973 button.Mui-selected[value*=yes] {
+            color: #FFFFFF;
+            background: #3543BF;
+            border-block-color: #3543BF;
+            border-right-color: #3543BF;
+        }
+
+        .jss5974 {
+            width: 50px !important;
+            border-radius: 4px !important;
+        }
+
+        .jss5975 {
+            border: none;
+            display: flex;
+        }
+
+        .jss5975>*:not(:last-child) {
+            margin-right: 8px;
+        }
+
+        .jss5975 button[class*="MuiToggleButtonGroup-groupedHorizontal"]:not(:first-child) {
+            margin-left: 0;
+            border-left-color: #DEDEDE;
+        }
+
+        .jss5976 {
+            color: #3543BF;
+            border: 1px solid #8B8B8B;
+            border-radius: 6px;
+        }
+
+        .jss5977 {
+            border: none !important;
+        }
+
+        .jss5978 {
+            width: unset !important;
+        }
+
+        .jss5979 {
+            border: 1px solid #DEDEDE !important;
+            height: 28px;
+            background: #FFFFFF;
+        }
+
+        .jss5979.Mui-selected {
+            color: #FFFFFF;
+            background: #3543BF;
+        }
+
+        .jss5979.Mui-selected.Mui-selected:hover {
+            background: #3543BF;
+        }
+
+        .jss5980 {
+            width: 96px !important;
+            height: 36px !important;
+            display: flex;
+            padding: 1px !important;
+            border-radius: 60px !important;
+            justify-content: space-between;
+        }
+
+        .jss5981 {
+            height: 32px !important;
+            border-radius: 60px !important;
+        }
+
+        .jss5982 {
+            color: #fff !important;
+            background-color: #787878 !important;
+        }
+
+        .jss5985 {
+            color: #0F0F0F;
+            padding: 0 39px 0 40px;
+            position: relative;
+        }
+
+        .jss5985:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .jss5985.MuiToggleButton-root {
+            height: 34px;
+            font-size: 12px;
+            border-radius: 4px !important;
+        }
+
+        .jss5985.Mui-selected {
+            color: #FFFFFF;
+            background-color: rgb(51, 163, 255);
+        }
+
+        .jss5985.Mui-selected::before {
+            left: 50%;
+            border: 5px solid transparent;
+            bottom: -10px;
+            content: "";
+            position: absolute;
+            border-top-color: rgb(51, 163, 255);
+        }
+
+        .jss5985.Mui-selected:hover {
+            background-color: rgb(51, 163, 255);
+        }
+
+        .jss5986 {
+            border: 1px solid rgba(0, 0, 0, 0.12) !important;
+            height: 34px !important;
+            font-size: 12px !important;
+            margin-left: 0px !important;
+            margin-right: 8px !important;
+            border-radius: 4px !important;
+        }
+
+        .jss5986:last-child {
+            margin-right: 0px !important;
+        }
+
+        .jss5987 {
+            font-weight: 500 !important;
+            border-color: #3543BF !important;
+        }
+
+        .jss5987.MuiToggleButton-root {
+            color: #3543BF;
+            border-color: #3543BF;
+            background-color: #FFFFFF;
+        }
+
+        .jss5987.Mui-selected {
+            color: #FFFFFF;
+            background: #3543BF;
+        }
+
+        .jss5987.Mui-selected.Mui-selected:hover {
+            background: #3543BF;
+        }
+
+        .jss5987.MuiToggleButton-root:hover {
+            color: #FFFFFF;
+            background-color: #C2C7EC;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss4 {
+            color: #404040 !important;
+        }
+
+        .jss5 {
+            color: #FFFFFF;
+        }
+
+        .jss5:before {
+            border: 1px solid #D2D1D1;
+        }
+
+        .jss6 {
+            color: #3543bf !important;
+        }
+
+        .jss7 {
+            color: #404040;
+            border: 1px solid #EFEFEF;
+            padding: 12px;
+            font-size: 12px;
+            white-space: pre-line;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+        }
+
+        .jss8 {
+            color: #fff !important;
+            padding: 6px 8px !important;
+            font-size: 14px !important;
+            white-space: pre-line;
+            border-radius: 2px !important;
+            background-color: #404040 !important;
+        }
+
+        .jss9 {
+            background-color: #3543bf !important;
+        }
+
+        .jss10 {
+            z-index: 1;
+        }
+
+        .jss11 {
+            background-color: #EFEFEF;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss1 {
+            color: white;
+            right: 109px;
+            width: 364px;
+            bottom: 0;
+            height: 95px;
+            padding: 16px 24px 14px;
+            z-index: 1;
+            position: absolute;
+            background: #3543BF;
+            box-shadow: 0px -1px 5px rgba(1, 16, 34, 0.1);
+        }
+
+        .jss2 {
+            background: #fff;
+        }
+
+        .jss3 {
+            height: 236px;
+            border-radius: 4px;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss62 {
+            margin: 0;
+            display: flex;
+            padding: 0;
+            align-items: center;
+            list-style-type: none;
+        }
+
+        .jss63 {
+            margin: 0;
+            display: flex;
+            padding: 0;
+            flex-direction: column;
+            list-style-type: none;
+        }
+
+        .jss63:last-child {
+            margin-right: 24px;
+        }
+
+        .jss64 {
+            border-top: 1px solid #dedede;
+        }
+
+        .jss65 {
+            border-top: none;
+        }
+
+        .jss66 {
+            color: #3543BF;
+            cursor: pointer;
+            margin: 0px !important;
+            display: flex;
+            padding: 10px 16px 8px 16px;
+            font-size: 18px;
+            background: #F8F8F8;
+            font-family: Roboto;
+            font-weight: 500;
+            flex-direction: column;
+        }
+
+        .jss66:last-child {
+            margin-right: 0;
+        }
+
+        .jss67 {
+            cursor: pointer;
+            display: flex;
+            padding: 8px 16px;
+            font-size: 14px;
+            align-items: center;
+            font-family: Roboto;
+            font-weight: 500;
+            margin-bottom: 10px;
+            flex-direction: column;
+            text-transform: uppercase;
+        }
+
+        .jss68 {
+            color: #404040;
+            border-top: 2px solid #3543BF;
+            border-left: 1px solid #efefef;
+            font-weight: 500;
+            border-right: 1px solid #D2D1D1;
+            border-bottom: 1px solid #efefef;
+        }
+
+        .jss69 {
+            color: #404040;
+            border: 1px solid #D2D1D1;
+            background: #fff;
+            border-left: none;
+            font-weight: 500;
+            border-bottom: 1px solid transparent;
+        }
+
+        .jss70 {
+            border: 1px solid #D2D1D1;
+            border-left: none;
+        }
+
+        .jss71 {
+            color: #fff;
+            display: inline-flex;
+            padding: 2px 4px;
+            font-size: 12px;
+            min-width: 14px;
+            align-items: center;
+            line-height: 12px;
+            margin-left: 8px;
+            border-radius: 20px;
+            margin-bottom: -1px;
+            justify-content: center;
+            background-color: #3543BF;
+        }
+
+        .jss72 {
+            margin-left: -14px;
+        }
+
+        .jss73 {
+            color: #D2D1D1;
+        }
+
+        .jss74 {
+            color: #D2D1D1;
+            cursor: not-allowed !important;
+            background: #F8F8F8;
+        }
+
+        .jss75 {
+            text-transform: initial;
+        }
+    </style>
+    <style data-jss="" data-meta="makeStyles">
+        .jss6004 {
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 72px;
+            z-index: 2000;
+            position: absolute;
+            background: #FFFFFF;
+            box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .jss6005 {
+            height: /newextranet/lean_app/assets/auto.87be58db.svg;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        .jss6005:not([style*="white-space:"]) {
+            white-space: pre !important;
+        }
+
+        .jss6006 {
+            margin-left: 419px;
+        }
+    </style>
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/GroupPropertyMain.49e8feb0.js">
+    <link rel="stylesheet" href="/newextranet/lean_app/assets/GroupPropertyMain.68ad66c6.css">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/constants.09216752.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/search.8a165ca5.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/plus.832e37dd.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/DetailsCard.142c567e.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/linkage_mask_group.11a25071.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/CompetitiveAnalysis.reducer.8d80bc42.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/youtube.c45f268c.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/CustomRangeCalendar.7140371a.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/CustomSelect.791f0ed4.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/QuestionTooltip.648a9b25.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/nav-help-default.7fff122b.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/JumboTabs.76df7198.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/FooterLayout.1aeb54f7.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/auto.bff5e2b1.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/OnboardingMain.ea6a07cd.js">
+    <link rel="stylesheet" href="/newextranet/lean_app/assets/OnboardingMain.6ea7a394.css">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/OnboardingNav.27950e38.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/index.78825b22.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/caution.d6e11e4c.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/OnboardingCustomHooks.45f4d2f6.js">
+    <link rel="stylesheet" href="/newextranet/lean_app/assets/OnboardingCustomHooks.5edbfbdf.css">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/ListingMainGraphClient.3d26a81c.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/Listing.constants.295e564d.js">
+    <link rel="stylesheet" href="/newextranet/lean_app/assets/Listing.1e3f4d53.css">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/Footer.94baed5c.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/TextCardRadio.0813a744.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/Footer.805593df.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/ScriptLoader.3606f7f2.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/Amenities.32fec9bb.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/Amenities.a876b6ae.js">
+    <link rel="stylesheet" href="/newextranet/lean_app/assets/Amenities.025b8fef.css">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/synxis.599d76e7.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/constants.83711784.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/spaces.constant.bd5c07e2.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/EditSleepingArrangement.565982ae.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/chevron_up.03e1749c.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/AlertInfo.95ea3c74.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/info.30d2f094.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/utils.b5563b50.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/PropertyAPIClient.cd7081bb.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/PropertyGraphClient.f697cb21.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/AmenitiesGraphClient.2e670006.js">
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.google.com/maps-api-v3/api/js/57/4/common.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.google.com/maps-api-v3/api/js/57/4/util.js"></script>
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/BasicInfo.6528145d.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/BasicInfoGraphClient.f07c149b.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/LocationDetails.055d364d.js">
+    <link rel="stylesheet" href="/newextranet/lean_app/assets/LocationDetails.8f9ddf3d.css">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/Map.9a319b2a.js">
+    <link rel="modulepreload" as="script" crossorigin="" href="/newextranet/lean_app/assets/GoogleLocation.11ba8206.js">
+    <link rel="modulepreload" as="script" crossorigin=""
+        href="/newextranet/lean_app/assets/FinanceGraphClient.989a854f.js">
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.google.com/maps-api-v3/api/js/57/4/map.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.google.com/maps-api-v3/api/js/57/4/marker.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.google.com/maps-api-v3/api/js/57/4/onion.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.google.com/maps-api-v3/api/js/57/4/controls.js"></script>
+</head>
+
+<body data-twttr-rendered="true" id="docBody">
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="new-react-shell">
+        <div class="navigation-container">
+            <div class="navigation-header">
+                <div class="left-nav-icon-container">
+                    <div
+                        class="hover:bg-color-primary hover:rounded-md  flex flex-col items-center justify-center my-1 slg:mx-4 md:ml-4 hover:w-fit hover:h-[50px]">
+                        <div>
+                            <div class="marginLR12 cur-pntr">
+                                <div aria-label="Click to lock sidebar" class=""><img
+                                        src="/newextranet/lean_app/assets/hamburger.b4a36531.svg" width="24" height="24"
+                                        alt="" class="nav-hide-on-hover"><img
+                                        src="/newextranet/lean_app/assets/right-double-arrow.09d146e6.svg" width="24"
+                                        height="24" alt="" class="nav-show-on-hover"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="MuiTypography-root MuiTypography-body1 jss12 jss36 jss14 jss37 jss29 css-9l3uo3">
+                                Menu</p>
+                        </div>
+                    </div>
+                    <div class="nav-show-on-hover left-nav-hover">
+                        <div class="left-nav-container sr-flex1">
+                            <nav class="header-navigation-container sr-light-scrollbar "><a class="nav-entry "
+                                    href="/newextranet/">
+                                    <div class="flex-centralized"><svg width="20" height="20" viewBox="0 0 20 20"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+                                            <path
+                                                d="M7.83325 14.4727H6.09993C5.87008 14.4727 5.64964 14.3836 5.48711 14.2251C5.32458 14.0665 5.23328 13.8515 5.23328 13.6272V9.39999"
+                                                fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path
+                                                d="M3.5 8.55454L8.57342 4.36675C8.7299 4.23756 8.92827 4.16667 9.13328 4.16667C9.33828 4.16667 9.53665 4.23756 9.69314 4.36675L13.8987 7.83817"
+                                                fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M12.1665 4.3273H13.8998V6.0182" fill="none" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                            <path
+                                                d="M14.0946 13.0439L16.2248 10.9658C16.401 10.7939 16.5 10.5607 16.5 10.3176C16.5 10.0745 16.401 9.84132 16.2248 9.66941C16.0486 9.4975 15.8096 9.40093 15.5604 9.40093C15.3111 9.40093 15.0721 9.4975 14.8959 9.66941L12.7674 11.7475C12.2657 11.5559 11.7117 11.5385 11.1984 11.6984C10.6852 11.8583 10.244 12.1857 9.94904 12.6255C9.65407 13.0654 9.52331 13.5909 9.57873 14.1137C9.63415 14.6365 9.87236 15.1248 10.2533 15.4964C10.6343 15.8681 11.1348 16.1005 11.6708 16.1545C12.2067 16.2086 12.7454 16.081 13.1962 15.7933C13.6471 15.5055 13.9827 15.0751 14.1466 14.5745C14.3105 14.0738 14.2927 13.5333 14.0963 13.0439H14.0946Z"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path
+                                                d="M12.3892 13.4465C12.4762 13.5313 12.5355 13.6394 12.5596 13.7571C12.5837 13.8747 12.5714 13.9967 12.5243 14.1076C12.4773 14.2185 12.3976 14.3133 12.2953 14.38C12.1931 14.4467 12.0728 14.4823 11.9498 14.4823C11.8268 14.4823 11.7065 14.4467 11.6043 14.38C11.502 14.3133 11.4223 14.2185 11.3753 14.1076C11.3282 13.9967 11.316 13.8747 11.34 13.7571C11.3641 13.6394 11.4234 13.5313 11.5104 13.4465C11.568 13.39 11.6365 13.3453 11.7119 13.3147C11.7873 13.2841 11.8682 13.2684 11.9498 13.2684C12.0315 13.2684 12.1123 13.2841 12.1877 13.3147C12.2631 13.3453 12.3316 13.39 12.3892 13.4465Z"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg><span class="nav-label">My Properties</span></div>
+                                    <div class="flex-centralized"></div>
+                                </a><a class="nav-entry " href="/newextranet/groupchat">
+                                    <div class="flex-centralized"><svg width="20" height="20" viewBox="0 0 20 20"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+                                            <path
+                                                d="M15.6333 14.9H9.56667L6.1 17.5V14.9H4.36667C4.13681 14.9 3.91637 14.8087 3.75384 14.6462C3.59131 14.4836 3.5 14.2632 3.5 14.0333V5.36667C3.5 5.13681 3.59131 4.91637 3.75384 4.75384C3.91637 4.59131 4.13681 4.5 4.36667 4.5H15.6333C15.8632 4.5 16.0836 4.59131 16.2462 4.75384C16.4087 4.91637 16.5 5.13681 16.5 5.36667V14.0333C16.5 14.2632 16.4087 14.4836 16.2462 14.6462C16.0836 14.8087 15.8632 14.9 15.6333 14.9Z"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M6.7489 7.59375H13.7489" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                            <path d="M6.7489 10.4062H11.7489" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg><span class="nav-label">Group Chat</span></div>
+                                    <div class="flex-centralized"></div>
+                                </a><a class="nav-entry " href="/newextranet/manage/team">
+                                    <div class="flex-centralized"><svg width="20" height="20" viewBox="0 0 20 20"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+                                            <path
+                                                d="M14.245 13.4996L16.2421 11.5033C16.4072 11.3381 16.5 11.1141 16.5 10.8806C16.5 10.647 16.4072 10.4231 16.2421 10.2579C16.0769 10.0928 15.8529 10 15.6193 10C15.3858 10 15.1618 10.0928 14.9966 10.2579L13.0001 12.2548C12.5299 12.0707 12.0107 12.054 11.5297 12.2076C11.0486 12.3612 10.6352 12.6757 10.3587 13.0982C10.0823 13.5208 9.95973 14.0256 10.0117 14.5278C10.0636 15.0301 10.2869 15.4991 10.6439 15.8561C11.001 16.2132 11.4701 16.4364 11.9723 16.4883C12.4746 16.5403 12.9795 16.4177 13.402 16.1413C13.8246 15.8649 14.1391 15.4514 14.2927 14.9705C14.4464 14.4895 14.4297 13.9703 14.2456 13.5001L14.245 13.4996Z"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path
+                                                d="M5.125 5.12497C5.125 5.55594 5.2962 5.96925 5.60094 6.27399C5.90568 6.57873 6.319 6.74994 6.74997 6.74994C7.18094 6.74994 7.59425 6.57873 7.89899 6.27399C8.20373 5.96925 8.37494 5.55594 8.37494 5.12497C8.37494 4.694 8.20373 4.28068 7.89899 3.97594C7.59425 3.6712 7.18094 3.5 6.74997 3.5C6.319 3.5 5.90568 3.6712 5.60094 3.97594C5.2962 4.28068 5.125 4.694 5.125 5.12497V5.12497Z"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path
+                                                d="M9.1875 11.1375V10.6906C9.1875 9.86099 8.88789 9.06534 8.35459 8.47871C7.82128 7.89207 7.09796 7.5625 6.34375 7.5625C5.58954 7.5625 4.86622 7.89207 4.33292 8.47871C3.79961 9.06534 3.5 9.86099 3.5 10.6906V12.0313H4.71875L5.125 16.5H7.5625L7.77213 14.1989"
+                                                fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path
+                                                d="M10.8125 5.9375C10.8125 6.36848 10.9837 6.7818 11.2885 7.08655C11.5932 7.3913 12.0065 7.5625 12.4375 7.5625C12.8685 7.5625 13.2818 7.3913 13.5865 7.08655C13.8913 6.7818 14.0625 6.36848 14.0625 5.9375C14.0625 5.50652 13.8913 5.0932 13.5865 4.78845C13.2818 4.4837 12.8685 4.3125 12.4375 4.3125C12.0065 4.3125 11.5932 4.4837 11.2885 4.78845C10.9837 5.0932 10.8125 5.50652 10.8125 5.9375V5.9375Z"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path
+                                                d="M14.5741 8.67448C14.0625 7.96875 13.3428 7.628 12.9455 7.57783C12.5483 7.52767 12.1476 7.601 11.7766 7.79172C11.4056 7.98245 11.0751 8.28507 10.8125 8.67448"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg><span class="nav-label">My Team</span></div>
+                                    <div class="flex-centralized"></div>
+                                </a></nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="sr-flex1 w-[100%]">
+                    <div class="sr-flex-rowblock py-[10px] pr-[10px]">
+                        <div class="sr-flex-row flex-centralized"><img alt=""
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAMAAABG8BK2AAACuFBMVEUAAACAwv8ziv0me+owh/YwhfVAkv8nfewviPonfeswiPowiPovh/cziO4pf+4rgvIrgvIuhvcqgvInfOsrgvIwifothfcpfu4me+krgvMnfeswiPosg/Qofuwpfu0pgO4me+kvh/gwiPovhvkuhvkxiPsthfYle+gxiPstg/MpgO8keeguhvYle+kwiPkvh/gsgvEwifome+kofu4xivsleugwh/kwhvcqgO0neuoofuwne+oxiPwmeugxiPw0i/8uhfkofewnfeowivwmeukleucwivwwiPwmeukkeukxivwmfOopf+4thPUpgPAnfewvh/kthfYofu0uhvcqgfEsg/Qle+krgvIsg/MwiPsleuguhvgrgvMofu4pfu7////r8flsnvL9/f7y9/rV4vH5+/3c5/TX5PL3+vz1+fzl7vfe6fXb5vOWufFrnvTF2POev/OXvPO0zfLN3fFRjO7v9fvo7/g1g/Srx/OiwvOyy/FzpfFxovFzofE0gfGpxfBXj/DG2O5Hh+77/P3t8/mSt/W90/RQjfTZ5fPY5fOMs/NvoPORtvK80vF/qfCTuO+2zu6xye6gwO5Piu09hvjj7feGsPd7qPeoxfaAqfZFhvXB1vR1pPRVkfTS4vPJ2vOFsPN8qvPP3vKJsvJfl/JblPLR4PG3zvF/rPF4qPFMifE7gfGwzPCuyPCMtvCEr/Bom/BjmvDM2+/A1e+Zuu+sye6Ks+6Hr+5fle49gO4zfez2+PzR4ffI2vdakffh6/Xh6vXW4vWyy/VhlvU6g/Qwg/SuyfOmxfO50fJHhvKUuvF3pfFmmPEvgPHI2vCmxPBBg/DD1++bvu+Ns+8ufu54p+11pfhkmfjN3ffg6vaWuvWNtvWKr/XO3vRmnPNimPPG2PBun+44fu670u2mw+zF2PaZvPaJtPaTksEZAAAAS3RSTlMAAg/RHBkH+evr0q1HD1PY0tHCraypqamplIZfWElHLN9iU/n59/f38PDw8Onp39/e2NjSwqyGhmJiX19YWEksLN/f3sLClJSUlGIPeJdoAAAHh0lEQVRYw5WYZVsbQRSFN6VCqbu7u7u7JaENCQk0sBtPcClaKFIDitfd3d3d3d39b/TO3GWXZCBtT9Kv73PunZnTE7jKpRjXamgtv76+nTv59mtQa1ir8Qruv1WlQxPf2VRz586eGxAQMGdOQO+mHar8D0MxtkmXIAkSAKKcOao5XZvWVvwrZLRfUBClIId6QYoK1KD1P4FqDwgCuUPgixidSqXT1av9V0jVWhQiYshaRDPUiY58DTpd46reKR27I0UyI24FKQQEbgwGQ4+OXiDVpwZRCmLIcmfLGADpAAIMo8Gg17eoXukhDw5CIQQXAyIMdIMjGYx6o1HfsJLDr+ZX4VqoKIIMpDMChLjR6utXq5AySR4IVEbB7RKOSDGAEyKttn8FnCp+5Scit05aL0CQYiCb0YMVxGjrM3NVx71IXsS7K3rBkWAvdLtIAakbeu55mkwRdzsXGPBR0VuHh0QXY0QGoWjVLTzuC6WUQVasW7HC7QVQN3QmGaMmH3Vdt7vbHa0g57XrqsWyWrp11AuekQHn0QMEGEQ9y99n9xfw6uKqV6svohX4p8MP7sUoTwQQpVrduNxrpPNI0fDa9ebXm6u4FxRZizyQHiGEolQq20rJgG9aypdL5lUBa99SMzgRzgQjGSWIFs0Ap15ZbowOcs+XS/zi1euFctvFhyQdNEWgGaLWohk/j3xZseTnhQtr5HwBis5AzCAE9ythNIPQzti/5wsgDGVnhAMBAhWi1LShmCZ/zRf5HVGJE6EXZUhoM/qYulSeLzeTbtxNgrUkpedtT9+nlxg4ERCUIRqNpkYdwMxk82X1+9+rroOVJMHp4lN0n6OFTXGbeT4s8iGOhFbQjAY0nMzE5Mu1C9cu8ldgmkth6/IWWlMdKVu2H94WHxnGJ2aKbsrWQuTvD1MpfJl8WbNWter9IljLso9Lb23jnZvXx6bFChHWmHzh/F2EEE6oMlQTSjE1Fdw4Nl/eCWuWvnPeVOmWfTTE2OPjt6bGbL+3JHbnjoPxuVa6FvQSgmaA045rxebL2sTrS5MX3VCpolzRt2PDC+L2bo2J2XPUFCHMP8Cni15CQpRKYMAXNJIbyuZL1Brdxo0J63SGKHNyzGY+MSWc58179u0KTztktR8DM+AEIOiEaFZLrhZAPP6Hve5csiHRTDCLovIjbsXxESbTIbs50nT81L6nC/criWAvVAQyy78R50cvjNut27By6cYNCTeMBlNYctz824n8A3LIOW8j7j3POmY7QifSaEJlM/4+XF+wQr3I+fJB2LrxgyXJaIiy7dyy5JbdtoBcuwcudeHlEqu5iHqR9wJuZk3gfKX+IuXLYmHLp+gEeAEml35nssNqLqT54jjy7dSxUsd3oEgD4UyzanKdpf4i5UvsHd3iTSuNMFTCjke7oh850+ndPbzyxIn7J22PlCHidcHFEDc1uE5u20U3YeF5i8PhSZsWfU5J3bN9YaGa6OzCr2eyDp3JopvRIIRwKMaX7S9rHTuXLrkK4WAKW1Dw7HCBLQPzJefygYxjjsvgRTZDBUP1Y/Ml6lpS/t4CyIVlV/Ta/NTHtjt4cw8cP7SrtDgBrWioFZHTnmvA5ssy12ZT9DaCyd2/e3dcpPUL5suJ8MwjhYLlBW6XQlCBPlwttr/k2bdG7ojWa2GotN2R8zMs8fiQCoXQMxmnE77BSbtTAhtxw9j+Ersyz7jlCmSdiY+4tzfu9AEH5su8xOysrBznWRFCKchpybVi+8vthRvSbWGQdfMs++/H7T1qzQEIwQhnX54qMS8HN7KXQDATOIobz/aX9ck3Y1MscHUzhRTr88MH4+2YL8udubueW/kz4EWmUEw7TtGb6S+bomPufjI/0WqPOB8+LBKebrJjvsxzPTn3rNj2lYyDGAQF91FwXFOmv9j5/PVh5kytNs21oDSjuKggnFAAY8nOOvnDfJq6kUYCNYcs7sD0FyE5NXL/ogda9Xzn0YzT2UeFXMyX5baz2S9f2kuRIVMCRwCmSleP/rLAknN/R5rdBBjecjw9+0Wxg+YLYE4UZc5zlJQfCBTcrQ4HaurRX57wPJ+7R0hTAyai5GBJ6vk7mC/L+YiT37edLxYxgeQTHBgc3BxriUd/WfD44O4vDus+tXpeePzJyKJnjzMxX7Itx0+VPhV+uE0EmDZYBRp46S8gOV/OvfD3P3cOzOBJIyTYR2wmrb31FxCbL8gRMWPKalI9r/2FzRekkL2ABiqk0ua1v7D5InsBteUkNfbaX9h8CaRmqIaUL7Q9vPUXNl/IC0BOL7cfaHUJo7L+wuQLxaCbupybWqCXCvsLmy/SSDM8f3o0lNbC9BcmXwCCmlKd+SFUX6zebH9h80Xk+NThGFXrjxS2vzD5IpppX/HPu/pqAmL7C5MvoheWgnM1RCtsfwExlMnMRNKeWxAM018884VqurxdVnV7AoHpLx75AupVl/Oqqo2VTH9hJxpSlfub2tZj+ot80vim23L/IEXrQd7yxWfMP/8Fp02zGhXnS7fmbRiIN9UZ3qymZ770aT6iDvffUrQb2bKRz8SaNWrUbO/TqOWodl58/AEWFVnOkSvSQwAAAABJRU5ErkJggg=="
+                                width="40px;" height="40px;" class="cursor-pointer">
+                            <div class="fw500 font21 padL12 cursor-pointer">Go-MMT</div>
+                            <div class="h-full flex ml-5 gap-1 ">
+                                <div data-test-id="navigation-header-property-info">
+                                    <p
+                                        class="MuiTypography-root MuiTypography-body2 jss12 jss44 jss14 jss45 jss23 css-68o8xu">
+                                        nithin jaya</p>
+                                    <h6
+                                        class="MuiTypography-root MuiTypography-subtitle2 jss12 jss46 capitalize jss14 jss47 jss27 css-c7dfze">
+                                        Hotel</h6>
+                                </div>
+                                <div class="MuiChip-root uppercase  jss55 jss48 false MuiChip-outlined jss54 MuiChip-sizeMedium MuiChip-colorDefault MuiChip-outlinedDefault css-d23m2k"
+                                    data-test-id="navigation-header-property-status"><span
+                                        class="MuiChip-label MuiChip-labelMedium css-11lqbxm">In progress</span></div>
+                            </div>
+                        </div>
+                        <div class="sr-flex1"></div>
+                        <div class="flex flex-row items-center lg:gap-5 xmd:gap-2">
+                            <div data-test-id="dashboard_dropdown_user_menu"
+                                class="sr-dropdown hover:bg-color-primary hover:rounded-md h-[52px] py-1 px-2 xmd:w-[190px] ">
+                                <div class="flex items-center justify-start lg:gap-4 xmd:gap-2 cursor-pointer w-100">
+                                    <div
+                                        class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault bg-color-primary css-154ogbs">
+                                        <span class="user-name fw500 font21">NJ</span></div>
+                                    <div class="flex justify-between w-[120px]">
+                                        <p
+                                            class="MuiTypography-root MuiTypography-body1 jss12 jss38 !text-size-12 whitespace-nowrap overflow-hidden text-ellipsis jss14 jss39 jss22 css-9l3uo3">
+                                            Hi, Nithin Jayaraj</p><svg width="20" height="20" viewBox="0 0 20 20"
+                                            fill="#3543BF" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.84694 11.1382C9.92504 11.2163 10.0517 11.2163 10.1298 11.1382L13.5239 7.74406C13.8493 7.41862 14.377 7.41862 14.7024 7.74406V7.74406C15.0278 8.06949 15.0278 8.59713 14.7024 8.92257L10.6955 12.9295C10.3049 13.32 9.67178 13.32 9.28125 12.9295L5.27431 8.92257C4.94888 8.59713 4.94888 8.06949 5.27431 7.74406V7.74406C5.59975 7.41862 6.12739 7.41862 6.45283 7.74406L9.84694 11.1382Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="pad0 sr-dropdown-menu"
+                                    style="min-width: 280px; margin-top: 20px; left: -90px;">
+                                    <div class="sr-flex-row">
+                                        <div class="sr-flex1 fb">
+                                            <div class="padT19 padB15 hover sr-cursor borBtm">
+                                                <div class="d-flex marginLR19">
+                                                    <div><img
+                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAABZtJREFUWIW1l1tsXHcRxn8zZ9cXNe4NIQq8hSZtUYVjbyxWhuyChdyUJLZVYohaVS2CUNE+VDw1KgJTkCpACCJaCQiFSEioVIlcX5Io1GqSXbup69i7uQEiShqQEGoLtDhtba/XO8PDWdvrZG8EMU/nnJn5vu8/Z/43oU7r7OxpyUV1u3mhS0Rb3Ww9yo0AmM6KctndzgQiLzfkOXzy5Mi79eBKrYCOT/dtNPE9prZL0eZ6QA3mBH/e8e9nU6MXr0tAPL6zOde4+D1MHlclsgpubwOT6nLB4Z0iyC0u3CFIHLilJDYvyE9amB1IpVILdQvYlNi2QTwYVJW7AcysgPJCIMG+6ROt4/CUlZc9oLHk6YSbf83xL6pqUHScdZX7MseHLtUU0JHs3WT4SyAfBMD9ZTV99NTE0IXypOWtLdF3l2A/E5FkOAje9Ijec/r4i2cqCtiU2LYhkOCVIrnj/q2Z9MjTgP835Ks2oLHk6W8DA8siJCKfKq3EioB4fGdzLro4VSy7i/tXp9Mjv74+4rUW29L7CMrPAXA/s05m48s9sdJc+YbF76qE/9yxb86kR8uS9/f3B5feWvyyY7sx/QQQUTjt6vsyqbZfleuPmfHhX8SSvR8GBhBpfZebvgPsWalA2HSRP6oSMRjLpobvoUzZizNjSJHucuIMf6kx19A3OXlw/lrvgLYnssdEJGlYXjS4K3N86JICqET2qBIxY8l96bFy5ACLjflnK5EDKNK92Lj4THnvU2bGo2CmaFSW/AkA6ezsaZmP+puKNjv8JpMafqhceltyx+2KXqD24uWusqHclANoT/Q+L8IujPfzTXMf0lxUty+vcCK2r/Lo9N46yAGEJdtaWZ79sgh4QyR3wzY1L3QVPf+YOTF6smIe/tE6yEMFykcq+T52W1MKs9kwsNClItoaEsirVJnv4gSVfFebuWgl34EDBwoIkwBi2qputj4k8For3b/rFaDFPaKiQNE/h4G2Xpe3VEeqJonqRL0CDBmviuX+dvHxZlXC0goUqiVNnxhKGzZVk9x5JZseerWqAAm5zAgUdBbAxW+tge3AA2a8USXm71G3B2uJxPlA+KDvqMFlAHc21srLpkYvRlU73DloZisVM2MJ7AU33Tw1Pnq5Fo6JbwQQ5XJE8CxIOy5xwnledeebSr34N6A/Ht95ay66eDfAkhfOnUsdrtpDqzagkIkDCJ6V9kTv/SL8FsBcOmv9v//V2rb0JFQlBWDGLpWGhsNmLACo++7/JzkhySMQnhubC35EAGKJnv2IPFy6S5Xm3L51a2PLXGO34veZeCxw/8p0+tCp0pj25I64wz41nXaVwSvNC2MXjx7NlcbEktvvNJPzqhqY23PZ9OhuAdj82Z47Ckv+B1UNcPv9THp068eT/euaPP95EfuCIfcqtKwgGTlT/3o2NbI/JO/ZLfizoA2rIVwR54iID+Yb5o+cHRuba9uy45iqfqZ0oLKqrncv8DiAOa/htKrSVKmSBlcac9Hb5lpmNbrQ9Aaq6yrH2ryg5wU6ABz/YSY18gTA6pr9XuFJsD8BqPDJauQAAs9NTh6cPzs29r4j+6vFKtq8TG7YuRZmB1Z9RZuZOTSnhaDPzP5VDQzCY7pr8NMVEI/sBatwVF+T+VZQiPaV3hHW7FqnJoYuCN5dS4SqDmaPD/51+X16YvB1cxmpLpp/FjTSPT0x+PoarKsDM+OHMhEPOpd/Rzlz7MdXfxPkmm+r5H5eIhK/+k5QVgCEleA934z73tIlN0TjYiY1OnmN8PTwOGZ/WRtqedx/dKPOdlQ6otU8YsWS2++EYI8ZX1ppTPe9M+mRb5TixJK9zwCPFYnn1fR3pvb0dV9OrxHyuf6bLJ/foeZdjrW56NFsevhJgFii9wdgXQZZleBYML9weGrq6JV6cP8DYYKX2IlWBA0AAAAASUVORK5CYII="
+                                                            alt="User symbol" class="sr-profilE"></div>
+                                                    <div class="marginL10" style="width: 100%;">
+                                                        <div class="d-flex sr-justify-space"><span class="users">Nithin
+                                                                Jayaraj</span><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="#3543BF"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M13.3941 12.1368C13.4722 12.0587 13.4722 11.9321 13.3941 11.854L9.29289 7.75277C8.90237 7.36225 8.90237 6.72908 9.29289 6.33856C9.68342 5.94803 10.3166 5.94803 10.7071 6.33856L15.6569 11.2883C16.0474 11.6788 16.0474 12.312 15.6569 12.7025L10.7071 17.6523C10.3166 18.0428 9.68342 18.0428 9.29289 17.6523C8.90237 17.2617 8.90237 16.6286 9.29289 16.2381L13.3941 12.1368Z">
+                                                                </path>
+                                                            </svg></div>
+                                                        <div class="marginT3 font11 opacity6">Hotel Manager</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="padT19 hover sr-curPointer">
+                                                <dt class="borBtm d-flex sr-justify-space padB19 marginLR19">
+                                                    <div class="users">Change password</div><span><svg width="24"
+                                                            height="24" viewBox="0 0 24 24" fill="#3543BF"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M13.3941 12.1368C13.4722 12.0587 13.4722 11.9321 13.3941 11.854L9.29289 7.75277C8.90237 7.36225 8.90237 6.72908 9.29289 6.33856C9.68342 5.94803 10.3166 5.94803 10.7071 6.33856L15.6569 11.2883C16.0474 11.6788 16.0474 12.312 15.6569 12.7025L10.7071 17.6523C10.3166 18.0428 9.68342 18.0428 9.29289 17.6523C8.90237 17.2617 8.90237 16.6286 9.29289 16.2381L13.3941 12.1368Z">
+                                                            </path>
+                                                        </svg></span>
+                                                </dt>
+                                            </div>
+                                            <div class="pad19 hover sr-curPointer"><span
+                                                    class="users blue-lt fmed font12 width100 dib">LOGOUT</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-body">
+                <div class="sr-flex1 oa">
+                    <div class="nav-container">
+                        <section class="flex-1 overflow-auto">
+                            <div class="border-0 border-[#D2D1D1] border-b border-solid bg-color-white outline-none"
+                                tabindex="1">
+                                <div class="core-container new-core-container MuiBox-root css-1xg2j4q">
+                                    <div class="MuiBox-root css-zueju2" id="main-content">
+                                        <div class="flex flex-nowrap h-[61px] items-end">
+                                            <nav class=" w-fit jss65 MuiBox-root css-0">
+                                                <ul class="jss62 MuiBox-root css-0">
+                                                    <div class="border-solid border-[#D2D1D1] border-l-0 !border-t-0 border-b-0 cursor-pointer relative border-r-[1px] border-l border-r-0 false"
+                                                        data-test-id="jumbo-tab-item" aria-label="">
+                                                        <hr
+                                                            class="MuiDivider-root MuiDivider-fullWidth h-1 w-full top-0 bg-color-blue absolute css-39bbo6">
+                                                        <div
+                                                            class="px-3 flex items-center gap-2 pb-2 pt-[11px] border-solid border-[#D2D1D1] border-b-0 border-t-0  border-l-0 mb-[-2px] mt-[2px] border-r-0 border-b-[#F8F8F8] bg-[#F8F8F8]">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="28"
+                                                                height="28" viewBox="0 0 28 28" fill="none"
+                                                                class="h-4 w-4">
+                                                                <circle cx="14" cy="14" r="14" fill="white"></circle>
+                                                                <path
+                                                                    d="M14 0C11.2311 0 8.52431 0.821085 6.22202 2.35942C3.91973 3.89776 2.12532 6.08426 1.06569 8.64243C0.00606596 11.2006 -0.271181 14.0155 0.269012 16.7313C0.809205 19.447 2.14258 21.9416 4.10051 23.8995C6.05844 25.8574 8.55301 27.1908 11.2687 27.731C13.9845 28.2712 16.7994 27.9939 19.3576 26.9343C21.9157 25.8747 24.1022 24.0803 25.6406 21.778C27.1789 19.4757 28 16.7689 28 14C27.9956 10.2883 26.5191 6.72996 23.8946 4.10541C21.27 1.48087 17.7117 0.004446 14 0ZM20.8376 11.7376L13.1376 19.4376C12.9751 19.6001 12.7822 19.7291 12.5698 19.8171C12.3575 19.905 12.1299 19.9503 11.9 19.9503C11.6702 19.9503 11.4426 19.905 11.2302 19.8171C11.0179 19.7291 10.8249 19.6001 10.6624 19.4376L7.1624 15.9376C6.83417 15.6094 6.64977 15.1642 6.64977 14.7C6.64977 14.2358 6.83417 13.7906 7.1624 13.4624C7.49064 13.1342 7.93581 12.9498 8.4 12.9498C8.86419 12.9498 9.30937 13.1342 9.6376 13.4624L11.9 15.7248L18.3624 9.2624C18.5249 9.09987 18.7179 8.97095 18.9302 8.883C19.1426 8.79504 19.3702 8.74977 19.6 8.74977C19.8298 8.74977 20.0574 8.79504 20.2698 8.883C20.4821 8.97095 20.6751 9.09987 20.8376 9.2624C21.0001 9.42492 21.129 9.61786 21.217 9.83021C21.305 10.0426 21.3502 10.2702 21.3502 10.5C21.3502 10.7298 21.305 10.9574 21.217 11.1698C21.129 11.3821 21.0001 11.5751 20.8376 11.7376Z"
+                                                                    fill="#2E7D32"></path>
+                                                            </svg>
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body2 jss12 jss76 break-words  jss14 jss77 jss23 css-68o8xu">
+                                                                Basic Info</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="border-solid border-[#D2D1D1] border-l-0 !border-t-0 border-b-0 cursor-pointer relative border-r-[1px] false false false"
+                                                        data-test-id="jumbo-tab-item" aria-label="">
+                                                        <div
+                                                            class="h-1 w-full top-0 border-solid border-[#D2D1D1] border-0 !border-t-[1px] absolute">
+                                                        </div>
+                                                        <div
+                                                            class="px-3 flex items-center gap-2 pb-2 pt-[11px] border-solid border-[#D2D1D1] border-b-0 border-t-0  border-l-0 border-r-0">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="28"
+                                                                height="28" viewBox="0 0 28 28" fill="none"
+                                                                class="h-4 w-4">
+                                                                <circle cx="14" cy="14" r="14" fill="white"></circle>
+                                                                <path
+                                                                    d="M14 0C11.2311 0 8.52431 0.821085 6.22202 2.35942C3.91973 3.89776 2.12532 6.08426 1.06569 8.64243C0.00606596 11.2006 -0.271181 14.0155 0.269012 16.7313C0.809205 19.447 2.14258 21.9416 4.10051 23.8995C6.05844 25.8574 8.55301 27.1908 11.2687 27.731C13.9845 28.2712 16.7994 27.9939 19.3576 26.9343C21.9157 25.8747 24.1022 24.0803 25.6406 21.778C27.1789 19.4757 28 16.7689 28 14C27.9956 10.2883 26.5191 6.72996 23.8946 4.10541C21.27 1.48087 17.7117 0.004446 14 0ZM20.8376 11.7376L13.1376 19.4376C12.9751 19.6001 12.7822 19.7291 12.5698 19.8171C12.3575 19.905 12.1299 19.9503 11.9 19.9503C11.6702 19.9503 11.4426 19.905 11.2302 19.8171C11.0179 19.7291 10.8249 19.6001 10.6624 19.4376L7.1624 15.9376C6.83417 15.6094 6.64977 15.1642 6.64977 14.7C6.64977 14.2358 6.83417 13.7906 7.1624 13.4624C7.49064 13.1342 7.93581 12.9498 8.4 12.9498C8.86419 12.9498 9.30937 13.1342 9.6376 13.4624L11.9 15.7248L18.3624 9.2624C18.5249 9.09987 18.7179 8.97095 18.9302 8.883C19.1426 8.79504 19.3702 8.74977 19.6 8.74977C19.8298 8.74977 20.0574 8.79504 20.2698 8.883C20.4821 8.97095 20.6751 9.09987 20.8376 9.2624C21.0001 9.42492 21.129 9.61786 21.217 9.83021C21.305 10.0426 21.3502 10.2702 21.3502 10.5C21.3502 10.7298 21.305 10.9574 21.217 11.1698C21.129 11.3821 21.0001 11.5751 20.8376 11.7376Z"
+                                                                    fill="#2E7D32"></path>
+                                                            </svg>
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body2 jss12 jss78 break-words  jss14 jss79 jss23 css-68o8xu">
+                                                                Location</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="border-solid border-[#D2D1D1] border-l-0 !border-t-0 border-b-0 cursor-pointer relative border-r-[1px] false false false"
+                                                        data-test-id="jumbo-tab-item" aria-label="">
+                                                        <div
+                                                            class="h-1 w-full top-0 border-solid border-[#D2D1D1] border-0 !border-t-[1px] absolute">
+                                                        </div>
+                                                        <div
+                                                            class="px-3 flex items-center gap-2 pb-2 pt-[11px] border-solid border-[#D2D1D1] border-b-0 border-t-0  border-l-0 border-r-0">
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body1 jss12 jss80 h-4 w-4 flex items-center justify-center border rounded-full border-solid text-[#3543BF] jss14 jss81 jss25 css-9l3uo3">
+                                                                3</p>
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body2 jss12 jss82 break-words  jss14 jss83 jss23 css-68o8xu">
+                                                                Amenities</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="border-solid border-[#D2D1D1] border-l-0 !border-t-0 border-b-0 cursor-pointer relative border-r-[1px] false false cursor-not-allowed"
+                                                        data-test-id="jumbo-tab-item" aria-label="">
+                                                        <div
+                                                            class="h-1 w-full top-0 border-solid border-[#D2D1D1] border-0 !border-t-[1px] absolute">
+                                                        </div>
+                                                        <div
+                                                            class="px-3 flex items-center gap-2 pb-2 pt-[11px] border-solid border-[#D2D1D1] border-b-0 border-t-0  border-l-0 border-r-0">
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body1 jss12 jss84 h-4 w-4 flex items-center justify-center border rounded-full text-[#787878] bg-[#D2D1D1] jss14 jss85 jss25 css-9l3uo3">
+                                                                4</p>
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body2 jss12 jss86 break-words text-[#787878] jss14 jss87 jss23 css-68o8xu">
+                                                                Rooms</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="border-solid border-[#D2D1D1] border-l-0 !border-t-0 border-b-0 cursor-pointer relative border-r-[1px] false false cursor-not-allowed"
+                                                        data-test-id="jumbo-tab-item" aria-label="">
+                                                        <div
+                                                            class="h-1 w-full top-0 border-solid border-[#D2D1D1] border-0 !border-t-[1px] absolute">
+                                                        </div>
+                                                        <div
+                                                            class="px-3 flex items-center gap-2 pb-2 pt-[11px] border-solid border-[#D2D1D1] border-b-0 border-t-0  border-l-0 border-r-0">
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body1 jss12 jss88 h-4 w-4 flex items-center justify-center border rounded-full text-[#787878] bg-[#D2D1D1] jss14 jss89 jss25 css-9l3uo3">
+                                                                5</p>
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body2 jss12 jss90 break-words text-[#787878] jss14 jss91 jss23 css-68o8xu">
+                                                                Photos And Videos</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="border-solid border-[#D2D1D1] border-l-0 !border-t-0 border-b-0 cursor-pointer relative border-r-[1px] false false cursor-not-allowed"
+                                                        data-test-id="jumbo-tab-item" aria-label="">
+                                                        <div
+                                                            class="h-1 w-full top-0 border-solid border-[#D2D1D1] border-0 !border-t-[1px] absolute">
+                                                        </div>
+                                                        <div
+                                                            class="px-3 flex items-center gap-2 pb-2 pt-[11px] border-solid border-[#D2D1D1] border-b-0 border-t-0  border-l-0 border-r-0">
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body1 jss12 jss92 h-4 w-4 flex items-center justify-center border rounded-full text-[#787878] bg-[#D2D1D1] jss14 jss93 jss25 css-9l3uo3">
+                                                                6</p>
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body2 jss12 jss94 break-words text-[#787878] jss14 jss95 jss23 css-68o8xu">
+                                                                Policies</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="border-solid border-[#D2D1D1] border-l-0 !border-t-0 border-b-0 cursor-pointer relative border-r-[1px] false false cursor-not-allowed"
+                                                        data-test-id="jumbo-tab-item" aria-label="">
+                                                        <div
+                                                            class="h-1 w-full top-0 border-solid border-[#D2D1D1] border-0 !border-t-[1px] absolute">
+                                                        </div>
+                                                        <div
+                                                            class="px-3 flex items-center gap-2 pb-2 pt-[11px] border-solid border-[#D2D1D1] border-b-0 border-t-0  border-l-0 border-r-0">
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body1 jss12 jss96 h-4 w-4 flex items-center justify-center border rounded-full text-[#787878] bg-[#D2D1D1] jss14 jss97 jss25 css-9l3uo3">
+                                                                7</p>
+                                                            <p
+                                                                class="MuiTypography-root MuiTypography-body2 jss12 jss98 break-words text-[#787878] jss14 jss99 jss23 css-68o8xu">
+                                                                Finance &amp; Legal</p>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-10">
+                                <div class="core-container new-core-container MuiBox-root css-1xg2j4q">
+                                    <div class="MuiBox-root css-zueju2" id="main-content">
+                                        <div>
+                                            <div class="flex flex-col">
+                                                <h1 class="MuiTypography-root MuiTypography-h1 jss12 jss100 jss14 jss101 jss17 css-171h0ym"
+                                                    data-test-id="onboarding-welcome-title">Basic Information</h1>
+                                                <h6 class="MuiTypography-root MuiTypography-subtitle1 jss12 jss102 jss14 jss103 jss26 css-16rlg6l"
+                                                    data-test-id="onboarding-sub-title">Please fill in details of your
+                                                    property.</h6>
+                                            </div>
+                                            <div class="mt-4 mb-15">
+                                                <div class="sr-flex-row sr-align-start">
+                                                    <div class="flex-col flex-1">
+                                                        <div>
+                                                            <div
+                                                                class="flex flex-col gap-4 w-full bg-color-white py-4 rounded-lg mt-4 mt-0">
+                                                                <div class="px-4">
+                                                                    <div class="w-1/2 mb-4 MuiBox-root css-j7qwjs"
+                                                                        data-test-id="empty-error-msg-property">
+                                                                        <div class="mb-1  MuiBox-root css-0">
+                                                                            <p
+                                                                                class="MuiTypography-root MuiTypography-body1 jss5906 jss5926 jss5908 jss5927 jss5909 jss5916 css-15pynae">
+                                                                                Property Name</p>
+                                                                        </div>
+                                                                        <div class="MuiBox-root css-k008qs">
+                                                                            <div
+                                                                                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary jss5928 css-1mnkld1">
+                                                                                <input aria-invalid="false" name=""
+                                                                                    placeholder="Enter Property Name"
+                                                                                    type="text" min="0"
+                                                                                    class="MuiInputBase-input MuiOutlinedInput-input jss5935 jss5936 css-1x5jdmq"
+                                                                                    value="" style="text-align: left;">
+                                                                                <fieldset aria-hidden="true"
+                                                                                    class="MuiOutlinedInput-notchedOutline css-igs3ac">
+                                                                                    <legend class="css-ihdtdm"><span
+                                                                                            class="notranslate">&ZeroWidthSpace;</span>
+                                                                                    </legend>
+                                                                                </fieldset>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="w-1/2 mb-4 MuiBox-root css-j7qwjs"
+                                                                        data-test-id="onboarding-basicInfo-hotelStarRatingDropdown">
+                                                                        <div class="mb-1  MuiBox-root css-0">
+                                                                            <p
+                                                                                class="MuiTypography-root MuiTypography-body1 jss5906 jss5937 jss5908 jss5938 jss5909 jss5916 css-15pynae">
+                                                                                Hotel Star Rating</p>
+                                                                        </div>
+                                                                        <div class="MuiBox-root css-k008qs">
+                                                                            <div
+                                                                                class="MuiAutocomplete-root jss5939 MuiAutocomplete-hasPopupIcon css-18nc3u2">
+                                                                                <div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root jss5941 jss5953 jss5940 css-feqhe6"
+                                                                                    style="caret-color: transparent;">
+                                                                                    <div
+                                                                                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-disabled MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd Mui-readOnly MuiAutocomplete-inputRoot MuiInputBase-readOnly css-1j9zhfz">
+                                                                                        <input aria-invalid="false"
+                                                                                            autocomplete="off" id=":ri:"
+                                                                                            placeholder="Select"
+                                                                                            type="text"
+                                                                                            class="MuiInputBase-input MuiOutlinedInput-input Mui-disabled MuiInputBase-inputAdornedEnd Mui-readOnly MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-readOnly css-1uvydh2"
+                                                                                            aria-autocomplete="list"
+                                                                                            aria-expanded="false"
+                                                                                            autocapitalize="none"
+                                                                                            spellcheck="false"
+                                                                                            role="combobox" value="3">
+                                                                                        <div
+                                                                                            class="MuiAutocomplete-endAdornment jss5950 css-2iz2x6">
+                                                                                            <button
+                                                                                                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-uge3vf"
+                                                                                                tabindex="-1"
+                                                                                                type="button"
+                                                                                                aria-label="Open"
+                                                                                                title="Open"><svg
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    width="20"
+                                                                                                    height="20"
+                                                                                                    viewBox="0 0 20 20"
+                                                                                                    fill="none"
+                                                                                                    class="text-text-primary">
+                                                                                                    <path
+                                                                                                        d="M5 6.94444L9.83739 12.4267C9.85779 12.4497 9.88283 12.4682 9.91086 12.4808C9.93889 12.4935 9.96927 12.5 10 12.5C10.0307 12.5 10.0611 12.4935 10.0891 12.4808C10.1172 12.4682 10.1422 12.4497 10.1626 12.4267L15 6.94444"
+                                                                                                        stroke="currentColor"
+                                                                                                        stroke-width="2"
+                                                                                                        stroke-linecap="round"
+                                                                                                        stroke-linejoin="round">
+                                                                                                    </path>
+                                                                                                </svg><span
+                                                                                                    class="MuiTouchRipple-root css-w0pj6f"></span></button>
+                                                                                        </div>
+                                                                                        <fieldset aria-hidden="true"
+                                                                                            class="MuiOutlinedInput-notchedOutline css-igs3ac">
+                                                                                            <legend class="css-ihdtdm">
+                                                                                                <span
+                                                                                                    class="notranslate">&ZeroWidthSpace;</span>
+                                                                                            </legend>
+                                                                                        </fieldset>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="w-1/2 MuiBox-root css-j7qwjs"
+                                                                        data-test-id="onboarding-basicInfo-propertyEstdDropdown">
+                                                                        <div class="mb-1  MuiBox-root css-0">
+                                                                            <p
+                                                                                class="MuiTypography-root MuiTypography-body1 jss5906 jss5959 jss5908 jss5960 jss5909 jss5916 css-15pynae">
+                                                                                When was this property built</p>
+                                                                        </div>
+                                                                        <div class="MuiBox-root css-k008qs">
+                                                                            <div
+                                                                                class="MuiAutocomplete-root jss5939 MuiAutocomplete-hasPopupIcon css-18nc3u2">
+                                                                                <div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root jss5941 jss5961 jss5940 css-feqhe6"
+                                                                                    style="caret-color: transparent;">
+                                                                                    <div
+                                                                                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-disabled MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd Mui-readOnly MuiAutocomplete-inputRoot MuiInputBase-readOnly css-1j9zhfz">
+                                                                                        <input aria-invalid="false"
+                                                                                            autocomplete="off" id=":rk:"
+                                                                                            placeholder="Select"
+                                                                                            type="text"
+                                                                                            class="MuiInputBase-input MuiOutlinedInput-input Mui-disabled MuiInputBase-inputAdornedEnd Mui-readOnly MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-readOnly css-1uvydh2"
+                                                                                            aria-autocomplete="list"
+                                                                                            aria-expanded="false"
+                                                                                            autocapitalize="none"
+                                                                                            spellcheck="false"
+                                                                                            role="combobox"
+                                                                                            value="2023">
+                                                                                        <div
+                                                                                            class="MuiAutocomplete-endAdornment jss5950 css-2iz2x6">
+                                                                                            <button
+                                                                                                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-uge3vf"
+                                                                                                tabindex="-1"
+                                                                                                type="button"
+                                                                                                aria-label="Open"
+                                                                                                title="Open"><svg
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    width="20"
+                                                                                                    height="20"
+                                                                                                    viewBox="0 0 20 20"
+                                                                                                    fill="none"
+                                                                                                    class="text-text-primary">
+                                                                                                    <path
+                                                                                                        d="M5 6.94444L9.83739 12.4267C9.85779 12.4497 9.88283 12.4682 9.91086 12.4808C9.93889 12.4935 9.96927 12.5 10 12.5C10.0307 12.5 10.0611 12.4935 10.0891 12.4808C10.1172 12.4682 10.1422 12.4497 10.1626 12.4267L15 6.94444"
+                                                                                                        stroke="currentColor"
+                                                                                                        stroke-width="2"
+                                                                                                        stroke-linecap="round"
+                                                                                                        stroke-linejoin="round">
+                                                                                                    </path>
+                                                                                                </svg><span
+                                                                                                    class="MuiTouchRipple-root css-w0pj6f"></span></button>
+                                                                                        </div>
+                                                                                        <fieldset aria-hidden="true"
+                                                                                            class="MuiOutlinedInput-notchedOutline css-igs3ac">
+                                                                                            <legend class="css-ihdtdm">
+                                                                                                <span
+                                                                                                    class="notranslate">&ZeroWidthSpace;</span>
+                                                                                            </legend>
+                                                                                        </fieldset>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex">
+                                                                        <div class="w-1/2 mt-4 MuiBox-root css-j7qwjs">
+                                                                            <div class="mb-1  MuiBox-root css-0">
+                                                                                <p
+                                                                                    class="MuiTypography-root MuiTypography-body1 jss5906 jss5967 jss5908 jss5968 jss5909 jss5916 css-15pynae">
+                                                                                    Do you work with channel
+                                                                                    manager?<span class="ml-1"
+                                                                                        aria-label="A channel manager helps you update your inventory across different online travel platforms. If you use one, please select it from the list. This will help us pull your inventory from the channel manager directly. If your channel manager is not listed here, please send a query to channelmanager-tech@goibibo.com."><svg
+                                                                                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium w-3 h-3 text-text-secondary css-vubbuv"
+                                                                                            focusable="false"
+                                                                                            aria-hidden="true"
+                                                                                            viewBox="0 0 24 24"
+                                                                                            data-testid="HelpOutlineIcon">
+                                                                                            <path
+                                                                                                d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z">
+                                                                                            </path>
+                                                                                        </svg></span></p>
+                                                                            </div>
+                                                                            <div class="MuiBox-root css-k008qs">
+                                                                                <div role="group"
+                                                                                    class="MuiToggleButtonGroup-root jss5983 jss5994 jss5973 css-1ya7z0e"
+                                                                                    data-test-id="channel-manager-yes-no-label">
+                                                                                    <button
+                                                                                        class="MuiButtonBase-root MuiToggleButton-root Mui-selected MuiToggleButton-sizeMedium MuiToggleButton-standard MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal jss5976 jss5974 css-13da6ga"
+                                                                                        tabindex="0" type="button"
+                                                                                        value="no" aria-pressed="true">
+                                                                                        <div class="circle-yn"></div>
+                                                                                        No<span
+                                                                                            class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                                                    </button><button
+                                                                                        class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-standard MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal jss5977 jss5974 css-13da6ga"
+                                                                                        tabindex="0" type="button"
+                                                                                        value="yes"
+                                                                                        aria-pressed="false">
+                                                                                        <div class="circle-yn"></div>
+                                                                                        Yes<span
+                                                                                            class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                                                    </button></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="flex flex-col gap-4 w-full bg-color-white py-4 rounded-lg mt-4 mb-9 mt-3">
+                                                                <div class="px-4">
+                                                                    <h3
+                                                                        class="MuiTypography-root MuiTypography-h3 jss5906 jss5996 jss5908 jss5997 jss5913 css-bqx8sn">
+                                                                        Contact Details <span
+                                                                            class="glyphicon glyphicon-info-sign fmtTooltip"
+                                                                            style="color: rgb(118, 122, 131); margin-left: 8px; font-size: 16px;"><span
+                                                                                class="tip tip_top"
+                                                                                style="background-color: rgb(118, 122, 131); color: white; padding: 16px; font-size: 14px; left: 20px;">We
+                                                                                will send notifications, booking related
+                                                                                information and other important
+                                                                                information on your primary and
+                                                                                secondary contact details.</span></span>
+                                                                    </h3>
+                                                                </div>
+                                                                <div class="px-4">
+                                                                    <div class="w-1/2 mb-4 MuiBox-root css-j7qwjs"
+                                                                        data-test-id="empty-error-msg">
+                                                                        <div class="mb-1  MuiBox-root css-0">
+                                                                            <p
+                                                                                class="MuiTypography-root MuiTypography-body1 jss5906 jss5998 jss5908 jss5999 jss5909 jss5916 css-15pynae">
+                                                                                Mobile Number</p>
+                                                                        </div>
+                                                                        <div class="MuiBox-root css-k008qs">
+                                                                            <div
+                                                                                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary jss5928 css-1mnkld1">
+                                                                                <input aria-invalid="false" name=""
+                                                                                    placeholder="Enter contact number"
+                                                                                    type="text" min="0"
+                                                                                    class="MuiInputBase-input MuiOutlinedInput-input jss5935 jss6000 css-1x5jdmq"
+                                                                                    value="8590599354"
+                                                                                    style="text-align: left;">
+                                                                                <fieldset aria-hidden="true"
+                                                                                    class="MuiOutlinedInput-notchedOutline css-igs3ac">
+                                                                                    <legend class="css-ihdtdm"><span
+                                                                                            class="notranslate">&ZeroWidthSpace;</span>
+                                                                                    </legend>
+                                                                                </fieldset>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="w-1/2 MuiBox-root css-j7qwjs"
+                                                                        data-test-id="empty-error-msg-email">
+                                                                        <div class="mb-1  MuiBox-root css-0">
+                                                                            <p
+                                                                                class="MuiTypography-root MuiTypography-body1 jss5906 jss6001 jss5908 jss6002 jss5909 jss5916 css-15pynae">
+                                                                                Email</p>
+                                                                        </div>
+                                                                        <div class="MuiBox-root css-k008qs">
+                                                                            <div
+                                                                                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary jss5928 css-1mnkld1">
+                                                                                <input aria-invalid="false" name=""
+                                                                                    placeholder="Enter Email"
+                                                                                    type="text" min="0"
+                                                                                    class="MuiInputBase-input MuiOutlinedInput-input jss5935 jss6003 css-1x5jdmq"
+                                                                                    value="nithinjayaraj23@gmail.com"
+                                                                                    style="text-align: left;">
+                                                                                <fieldset aria-hidden="true"
+                                                                                    class="MuiOutlinedInput-notchedOutline css-igs3ac">
+                                                                                    <legend class="css-ihdtdm"><span
+                                                                                            class="notranslate">&ZeroWidthSpace;</span>
+                                                                                    </legend>
+                                                                                </fieldset>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="jss6004">
+                                                                <div
+                                                                    class="core-container new-core-container MuiBox-root css-1xg2j4q">
+                                                                    <div class="MuiBox-root css-zueju2"
+                                                                        id="main-content">
+                                                                        <div
+                                                                            class="h-[72px] flex justify-between w-full items-center">
+                                                                            <button
+                                                                                class="MuiButtonBase-root MuiButton-root jss6008 MuiButton-text MuiButton-textPrimary jss6012 MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButton-root jss6008 MuiButton-text MuiButton-textPrimary jss6012 MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation jss6008  css-1fss0mk"
+                                                                                tabindex="0" type="button"
+                                                                                data-test-id="footer-negative-button">back<span
+                                                                                    class="MuiTouchRipple-root css-w0pj6f"></span></button>
+                                                                            <div class="flex align-center">
+                                                                                <div class="flex align-cente"></div>
+                                                                                <button
+                                                                                    class="MuiButtonBase-root MuiButton-root jss6008 MuiButton-contained MuiButton-containedPrimary jss6010 MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root jss6008 MuiButton-contained MuiButton-containedPrimary jss6010 MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation jss6008 jss6005 css-1pa9bhv"
+                                                                                    tabindex="0" type="button"
+                                                                                    data-test-id="footer-positive-button">save
+                                                                                    and continue<span
+                                                                                        class="MuiTouchRipple-root css-w0pj6f"></span></button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="MuiBox-root css-eidimb"
+                                                                        id="side-content"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiBox-root css-eidimb" id="side-content">
+                                        <div class="flex flex-col mb-15">
+                                            <div class="mb-4" data-test-id="onboarding-step-details-card">
+                                                <div
+                                                    class="min-h-[75px] px-3 py-3 bg-[#0F8EDB] justify-between flex rounded-t-lg items-center">
+                                                    <h3
+                                                        class="MuiTypography-root MuiTypography-h3 jss12 jss6018 flex items-center jss14 jss6019 jss19 css-18h9l83">
+                                                        Step Detail</h3>
+                                                    <div class="relative"><img
+                                                            src="/newextranet/lean_app/assets/linkage_star.4b203c51.svg"
+                                                            alt="rate plan linkage"><img
+                                                            src="/newextranet/lean_app/assets/linkage_mask_group.b382fc92.svg"
+                                                            alt="rate plan linkage"
+                                                            class="absolute right-[-90px] top-[-60px] h-[200px] pointer-events-none ">
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="p-3 border border-t-0 border-solid border-divider bg-color-white justify-between relative z-10">
+                                                    <p
+                                                        class="MuiTypography-root MuiTypography-body1 jss12 jss6020 jss14 jss6021 jss22 css-9l3uo3">
+                                                    </p>
+                                                    <p
+                                                        class="MuiTypography-root MuiTypography-body1 jss12 jss6022 my-1 jss14 jss6023 jss22 css-9l3uo3">
+                                                    <p class="mb-0">Now, you can onboard your property in a few easy
+                                                        steps. Add property name &amp; verify your primary contact
+                                                        details via which MakeMyTrip can share details of your upcoming
+                                                        bookings, new offers, etc.</p>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div data-test-id="faq-card"
+                                                class="border border-solid border-divider bg-color-white faq-cards-latest rounded-b">
+                                                <div
+                                                    class="px-3 py-[10px] font-[500] min-h-[48px] flex justify-between items-center">
+                                                    <p
+                                                        class="MuiTypography-root MuiTypography-body2 jss12 jss6024 flex justify-center items-center jss14 jss6025 jss23 css-68o8xu">
+                                                        Frequently Asked Questions</p><button
+                                                        class="MuiButtonBase-root MuiButton-root jss2319 MuiButton-text MuiButton-textPrimary jss2323 MuiButton-sizeSmall jss2324 MuiButton-textSizeSmall MuiButton-disableElevation MuiButton-root jss2319 MuiButton-text MuiButton-textPrimary jss2323 MuiButton-sizeSmall jss2324 MuiButton-textSizeSmall MuiButton-disableElevation jss2319  css-1x5dbqt"
+                                                        tabindex="0" type="button"><span
+                                                            class="font-semibold">Hide</span><span
+                                                            class="MuiTouchRipple-root css-w0pj6f"></span></button>
+                                                </div>
+                                                <hr class="MuiDivider-root MuiDivider-fullWidth css-39bbo6">
+                                                <div>
+                                                    <div
+                                                        class="px-3 py-[14px] flex flex-row justify-between cursor-pointer bg-color-primary">
+                                                        <p
+                                                            class="MuiTypography-root MuiTypography-body1 jss12 jss6027 flex justify-center items-center jss14 jss6028 jss22 css-9l3uo3">
+                                                            How can I get started with the onboarding process?</p><svg
+                                                            width="20" height="20" viewBox="0 0 20 20" fill="#404040"
+                                                            xmlns="http://www.w3.org/2000/svg" class="up chevron-icon">
+                                                            <path
+                                                                d="M9.84694 11.1382C9.92504 11.2163 10.0517 11.2163 10.1298 11.1382L13.5239 7.74406C13.8493 7.41862 14.377 7.41862 14.7024 7.74406V7.74406C15.0278 8.06949 15.0278 8.59713 14.7024 8.92257L10.6955 12.9295C10.3049 13.32 9.67178 13.32 9.28125 12.9295L5.27431 8.92257C4.94888 8.59713 4.94888 8.06949 5.27431 7.74406V7.74406C5.59975 7.41862 6.12739 7.41862 6.45283 7.74406L9.84694 11.1382Z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <p
+                                                        class="MuiTypography-root MuiTypography-body1 jss12 jss6029 flex justify-center p-3 jss14 jss6030 jss22 css-9l3uo3">
+                                                    <p class="mb-0">You can get started by providing information such as
+                                                        property name, contact number, location, photos, amenities, bank
+                                                        details, etc.</p>
+                                                    </p>
+                                                    <hr class="MuiDivider-root MuiDivider-fullWidth css-39bbo6">
+                                                </div>
+                                                <div>
+                                                    <div
+                                                        class="px-3 py-[14px] flex flex-row justify-between cursor-pointer ">
+                                                        <p
+                                                            class="MuiTypography-root MuiTypography-body1 jss12 jss6031 flex justify-center items-center jss14 jss6032 jss22 css-9l3uo3">
+                                                            Which documents do I need to share while onboarding my
+                                                            property?</p><svg width="20" height="20" viewBox="0 0 20 20"
+                                                            fill="#404040" xmlns="http://www.w3.org/2000/svg"
+                                                            class="chevron-icon">
+                                                            <path
+                                                                d="M9.84694 11.1382C9.92504 11.2163 10.0517 11.2163 10.1298 11.1382L13.5239 7.74406C13.8493 7.41862 14.377 7.41862 14.7024 7.74406V7.74406C15.0278 8.06949 15.0278 8.59713 14.7024 8.92257L10.6955 12.9295C10.3049 13.32 9.67178 13.32 9.28125 12.9295L5.27431 8.92257C4.94888 8.59713 4.94888 8.06949 5.27431 7.74406V7.74406C5.59975 7.41862 6.12739 7.41862 6.45283 7.74406L9.84694 11.1382Z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <hr class="MuiDivider-root MuiDivider-fullWidth css-39bbo6">
+                                                </div>
+                                                <div>
+                                                    <div
+                                                        class="px-3 py-[14px] flex flex-row justify-between cursor-pointer ">
+                                                        <p
+                                                            class="MuiTypography-root MuiTypography-body1 jss12 jss6033 flex justify-center items-center jss14 jss6034 jss22 css-9l3uo3">
+                                                            What should I do if I face a technical issue during
+                                                            onboarding? </p><svg width="20" height="20"
+                                                            viewBox="0 0 20 20" fill="#404040"
+                                                            xmlns="http://www.w3.org/2000/svg" class="chevron-icon">
+                                                            <path
+                                                                d="M9.84694 11.1382C9.92504 11.2163 10.0517 11.2163 10.1298 11.1382L13.5239 7.74406C13.8493 7.41862 14.377 7.41862 14.7024 7.74406V7.74406C15.0278 8.06949 15.0278 8.59713 14.7024 8.92257L10.6955 12.9295C10.3049 13.32 9.67178 13.32 9.28125 12.9295L5.27431 8.92257C4.94888 8.59713 4.94888 8.06949 5.27431 7.74406V7.74406C5.59975 7.41862 6.12739 7.41862 6.45283 7.74406L9.84694 11.1382Z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mt-4 rounded-sm px-3 py-[10px] bg-color-white"
+                                                data-test-id="bdm-card">
+                                                <div class="font-[500]">Need more help?</div>
+                                                <div class="mt-3">
+                                                    <div class="flex flex-row mb-2"><svg width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                                                            <path
+                                                                d="M3 11.5C3 12.6162 3.21986 13.7215 3.64702 14.7528C4.07419 15.7841 4.70029 16.7211 5.48959 17.5104C6.27889 18.2997 7.21592 18.9258 8.24719 19.353C9.27846 19.7801 10.3838 20 11.5 20C12.6162 20 13.7215 19.7801 14.7528 19.353C15.7841 18.9258 16.7211 18.2997 17.5104 17.5104C18.2997 16.7211 18.9258 15.7841 19.353 14.7528C19.7801 13.7215 20 12.6162 20 11.5C20 10.3838 19.7801 9.27846 19.353 8.24719C18.9258 7.21592 18.2997 6.27889 17.5104 5.48959C16.7211 4.70029 15.7841 4.07419 14.7528 3.64702C13.7215 3.21986 12.6162 3 11.5 3C10.3838 3 9.27846 3.21986 8.24719 3.64702C7.21592 4.07419 6.27889 4.70029 5.48959 5.48959C4.70029 6.27889 4.07419 7.21592 3.64702 8.24719C3.21986 9.27846 3 10.3838 3 11.5V11.5Z"
+                                                                stroke="#404040" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path
+                                                                d="M8.83301 9.49984C8.83301 9.87192 8.90629 10.2404 9.04868 10.5841C9.19107 10.9279 9.39977 11.2402 9.66287 11.5033C9.92597 11.7664 10.2383 11.9751 10.5821 12.1175C10.9258 12.2599 11.2943 12.3332 11.6663 12.3332C12.0384 12.3332 12.4069 12.2599 12.7506 12.1175C13.0944 11.9751 13.4067 11.7664 13.6698 11.5033C13.9329 11.2402 14.1416 10.9279 14.284 10.5841C14.4264 10.2404 14.4997 9.87192 14.4997 9.49984C14.4997 9.12776 14.4264 8.75932 14.284 8.41557C14.1416 8.07181 13.9329 7.75947 13.6698 7.49637C13.4067 7.23327 13.0944 7.02457 12.7506 6.88218C12.4069 6.73979 12.0384 6.6665 11.6663 6.6665C11.2943 6.6665 10.9258 6.73979 10.5821 6.88218C10.2383 7.02457 9.92597 7.23327 9.66287 7.49637C9.39977 7.75947 9.19107 8.07181 9.04868 8.41557C8.90629 8.75932 8.83301 9.12776 8.83301 9.49984V9.49984Z"
+                                                                stroke="#404040" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path
+                                                                d="M15.8777 15.9997C15.5004 15.202 14.9043 14.5279 14.1587 14.0558C13.4132 13.5836 12.5489 13.333 11.6664 13.333C10.784 13.333 9.91964 13.5836 9.17409 14.0558C8.42853 14.5279 7.8324 15.202 7.45508 15.9997"
+                                                                stroke="#404040" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                        <div>
+                                                            <div>Akhil KS </div>
+                                                            <div class="text-[#787878]">Business Development Manager
+                                                                (BDM)</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex flex-row mb-2 items-center"><svg width="24"
+                                                            height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                                                            <path
+                                                                d="M9.54715 8.3213C9.86226 8.00563 10.0392 7.57783 10.0392 7.1318C10.0392 6.68577 9.86226 6.25797 9.54715 5.9423L7.76235 4.15968C7.44687 3.84422 7.01899 3.66699 6.57285 3.66699C6.1267 3.66699 5.69883 3.84422 5.38335 4.15968L4.40513 5.13863C3.99354 5.54956 3.73686 6.09027 3.67866 6.66896C3.62046 7.24764 3.76433 7.82864 4.08584 8.3133C6.96661 12.6494 10.684 16.3668 15.0201 19.2475C15.5049 19.5686 16.0858 19.7124 16.6644 19.6544C17.243 19.5965 17.7839 19.3405 18.1955 18.9297L19.1737 17.9508C19.33 17.7946 19.454 17.6092 19.5386 17.4051C19.6232 17.201 19.6667 16.9822 19.6667 16.7613C19.6667 16.5403 19.6232 16.3216 19.5386 16.1175C19.454 15.9134 19.33 15.7279 19.1737 15.5718L17.3896 13.7877C17.2335 13.6314 17.048 13.5074 16.8439 13.4228C16.6398 13.3382 16.4211 13.2947 16.2001 13.2947C15.9792 13.2947 15.7604 13.3382 15.5563 13.4228C15.3522 13.5074 15.1668 13.6314 15.0106 13.7877L14.4157 14.3826C12.4221 12.742 10.5923 10.9118 8.95221 8.91769L9.54715 8.3213Z"
+                                                                stroke="#404040" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                        <div class="text-[#3543BF]"><a
+                                                                href="tel:8921629676">8921629676</a></div>
+                                                    </div>
+                                                    <div class="flex flex-row items-center"><svg width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                                                            <path d="M4 6.5H20V17.5H4V6.5Z" stroke="#404040"
+                                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M17.9149 9.43359L12.0019 13.4669L6.08887 9.43359"
+                                                                stroke="#404040" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path d="M6.08789 14.933L8.52267 13.4663" stroke="#404040"
+                                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M17.9133 14.933L15.4785 13.4663" stroke="#404040"
+                                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        </svg>
+                                                        <div class="text-[#3543BF]"><a
+                                                                href="mailto:akhil.k.s@go-mmt.com">akhil.k.s@go-mmt.com</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="react-portal" class="perf-boost-container"></div>
+
+
+    <input type="hidden" id="googleMapJS"
+        value="https://maps.google.com/maps/api/js?libraries=places&amp;key=AIzaSyAe6vgGb95ENL7nVdtoUcTUWQ7wPJPQ5Aw">
+
+
+    <script type="text/javascript" src="/w50yvStpU/h/oDjEBlHg/9Vf3cbD0hQuh7c/InVedjM/a3kqO/z5neWY"></script>
+
+    <script type="text/javascript"
+        src="https://maps.google.com/maps/api/js?libraries=places&amp;key=AIzaSyAe6vgGb95ENL7nVdtoUcTUWQ7wPJPQ5Aw"></script>
+    <div
+        style="position: absolute; left: 0px; top: -2px; height: 1px; overflow: hidden; visibility: hidden; width: 1px;">
+        <span
+            style="position: absolute; font-size: 300px; width: auto; height: auto; margin: 0px; padding: 0px; font-family: Roboto, Arial, sans-serif;">BESbswy</span>
+    </div>
+</body>
+
+</html>
