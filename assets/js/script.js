@@ -142,3 +142,56 @@ const initAccordion = function (currentAccordion) {
 
 for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); }
 
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const partnersSection = document.getElementById('partners-section');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        document.querySelector('.section-title').classList.add('animate');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.5
+  });
+
+  observer.observe(partnersSection);
+
+  const wrapper = document.getElementById('partners-wrapper');
+  wrapper.addEventListener('mouseover', () => {
+    wrapper.style.animationPlayState = 'paused';
+  });
+
+  wrapper.addEventListener('mouseout', () => {
+    wrapper.style.animationPlayState = 'running';
+  });
+});
+
+document.querySelectorAll('.package-card').forEach(card => {
+  card.addEventListener('scroll', function() {
+    const packageText = card.querySelector('.package-text');
+    if (packageText.scrollTop + packageText.clientHeight >= packageText.scrollHeight) {
+      card.classList.add('show-learn-more');
+    } else {
+      card.classList.remove('show-learn-more');
+    }
+  });
+});
+
+// document.querySelectorAll('.package-text').forEach(function (packageText) {
+//   packageText.addEventListener('scroll', function () {
+//     const scrollTop = packageText.scrollTop;
+//     const scrollHeight = packageText.scrollHeight;
+//     const offsetHeight = packageText.offsetHeight;
+
+//     if (scrollTop + offsetHeight >= scrollHeight) {
+//       packageText.parentElement.querySelector('.btn-text').classList.add('show');
+//     } else {
+//       packageText.parentElement.querySelector('.btn-text').classList.remove('show');
+//     }
+//   });
+// });
+
+
