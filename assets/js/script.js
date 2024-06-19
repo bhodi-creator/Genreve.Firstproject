@@ -120,10 +120,9 @@ for (let i = 0, len = sliders.length; i < len; i++) { initSlider(sliders[i]); }
 
 const accordions = document.querySelectorAll("[data-accordion]");
 
-let lastActiveAccordion = accordions[0];
+let lastActiveAccordion = null;
 
 const initAccordion = function (currentAccordion) {
-
   const accordionBtn = currentAccordion.querySelector("[data-accordion-btn]");
 
   const expandAccordion = function () {
@@ -133,14 +132,19 @@ const initAccordion = function (currentAccordion) {
 
     currentAccordion.classList.toggle("expanded");
 
-    lastActiveAccordion = currentAccordion;
+    if (currentAccordion.classList.contains("expanded")) {
+      lastActiveAccordion = currentAccordion;
+    } else {
+      lastActiveAccordion = null;
+    }
   }
 
   accordionBtn.addEventListener("click", expandAccordion);
-
 }
 
-for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); }
+accordions.forEach(accordion => initAccordion(accordion));
+
+
 
 
 
@@ -180,18 +184,7 @@ document.querySelectorAll('.package-card').forEach(card => {
   });
 });
 
-// document.querySelectorAll('.package-text').forEach(function (packageText) {
-//   packageText.addEventListener('scroll', function () {
-//     const scrollTop = packageText.scrollTop;
-//     const scrollHeight = packageText.scrollHeight;
-//     const offsetHeight = packageText.offsetHeight;
 
-//     if (scrollTop + offsetHeight >= scrollHeight) {
-//       packageText.parentElement.querySelector('.btn-text').classList.add('show');
-//     } else {
-//       packageText.parentElement.querySelector('.btn-text').classList.remove('show');
-//     }
-//   });
-// });
+
 
 
